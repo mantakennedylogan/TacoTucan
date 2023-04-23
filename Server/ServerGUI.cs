@@ -40,6 +40,7 @@ namespace Server
 
             string text = "";
             Boolean readLine = false;
+            int messageLine = 0;
             string priority = getPriorityLevel();
 
             foreach (string line in File.ReadAllLines(path))
@@ -47,7 +48,7 @@ namespace Server
                 // handles when no priority is set
                 if (string.Equals(priority, "all"))
                 {
-                    if (!string.Equals(line, "PRIORITY_LOW") && !string.Equals(line, "PRIORITY_MEDIUM") && !string.Equals(line, "PRIORITY_HIGH"))
+                    if (!String.Equals(line, "PutMessage"))
                     {
                         text += line + "\r\n";
                     }
@@ -55,13 +56,21 @@ namespace Server
 
                 else if (readLine)
                 {
-                    text += line+ "\r\n\r\n";                 
-                    readLine = false;
+                    text += line+ "\r\n";
+                    messageLine++;
+                    if (messageLine == 4)
+                    {
+                        text += "\r\n";
+                        messageLine = 0;
+                        readLine = false;
+                    }
                 }
 
                 else if (String.Equals(line, priority))
                 {
-                    readLine = true;   
+                    readLine = true;
+                    messageLine= 1;
+                    text += line + "\r\n";
                 } 
 
             }
