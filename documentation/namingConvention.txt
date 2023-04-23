@@ -1,0 +1,14 @@
+For message
+    all located in the file messages.txt
+format of a message
+    (PRIORITY_LOW, PRIORITY_MEIDUM, PRIORITY_LOW)
+    month/day/year hour:minute:second
+    message contents
+
+    example:
+    
+    PRIORITY_MEIDUM
+    4/11/2023 10:25:16
+    this is a test messege
+location of messeges.txt
+    @"../../../Messages.txt"

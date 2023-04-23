@@ -1,0 +1,55 @@
+D:\Spring 2023\CISS 346\TacoTucan\SMPConsumer\bin\Debug\SMPConsumer.exe.config
+D:\Spring 2023\CISS 346\TacoTucan\SMPConsumer\bin\Debug\SMPConsumer.exe
+D:\Spring 2023\CISS 346\TacoTucan\SMPConsumer\bin\Debug\SMPConsumer.pdb
+D:\Spring 2023\CISS 346\TacoTucan\SMPConsumer\obj\Debug\SMPConsumer.csproj.AssemblyReference.cache
+D:\Spring 2023\CISS 346\TacoTucan\SMPConsumer\obj\Debug\SMPConsumer.csproj.SuggestedBindingRedirects.cache
+D:\Spring 2023\CISS 346\TacoTucan\SMPConsumer\obj\Debug\SMPConsumer.ConsumerGUI.resources
+D:\Spring 2023\CISS 346\TacoTucan\SMPConsumer\obj\Debug\SMPConsumer.Properties.Resources.resources
+D:\Spring 2023\CISS 346\TacoTucan\SMPConsumer\obj\Debug\SMPConsumer.csproj.GenerateResource.cache
+D:\Spring 2023\CISS 346\TacoTucan\SMPConsumer\obj\Debug\SMPConsumer.csproj.CoreCompileInputs.cache
+D:\Spring 2023\CISS 346\TacoTucan\SMPConsumer\obj\Debug\SMPConsumer.exe
+D:\Spring 2023\CISS 346\TacoTucan\SMPConsumer\obj\Debug\SMPConsumer.pdb
+E:\school\WWU\ciss 346\tacotucan\SMPConsumer\bin\Debug\SMPConsumer.exe.config
+E:\school\WWU\ciss 346\tacotucan\SMPConsumer\bin\Debug\SMPConsumer.exe
+E:\school\WWU\ciss 346\tacotucan\SMPConsumer\bin\Debug\SMPConsumer.pdb
+E:\school\WWU\ciss 346\tacotucan\SMPConsumer\obj\Debug\SMPConsumer.csproj.AssemblyReference.cache
+E:\school\WWU\ciss 346\tacotucan\SMPConsumer\obj\Debug\SMPConsumer.csproj.SuggestedBindingRedirects.cache
+E:\school\WWU\ciss 346\tacotucan\SMPConsumer\obj\Debug\SMPConsumer.ConsumerGUI.resources
+E:\school\WWU\ciss 346\tacotucan\SMPConsumer\obj\Debug\SMPConsumer.Properties.Resources.resources
+E:\school\WWU\ciss 346\tacotucan\SMPConsumer\obj\Debug\SMPConsumer.csproj.GenerateResource.cache
+E:\school\WWU\ciss 346\tacotucan\SMPConsumer\obj\Debug\SMPConsumer.csproj.CoreCompileInputs.cache
+E:\school\WWU\ciss 346\tacotucan\SMPConsumer\obj\Debug\SMPConsumer.exe
+E:\school\WWU\ciss 346\tacotucan\SMPConsumer\obj\Debug\SMPConsumer.pdb
+C:\csSchoolWork\ciss 346\SMP\tacotucan\SMPConsumer\bin\Debug\SMPConsumer.exe.config
+C:\csSchoolWork\ciss 346\SMP\tacotucan\SMPConsumer\bin\Debug\SMPConsumer.exe
+C:\csSchoolWork\ciss 346\SMP\tacotucan\SMPConsumer\bin\Debug\SMPConsumer.pdb
+C:\csSchoolWork\ciss 346\SMP\tacotucan\SMPConsumer\obj\Debug\SMPConsumer.csproj.AssemblyReference.cache
+C:\csSchoolWork\ciss 346\SMP\tacotucan\SMPConsumer\obj\Debug\SMPConsumer.csproj.SuggestedBindingRedirects.cache
+C:\csSchoolWork\ciss 346\SMP\tacotucan\SMPConsumer\obj\Debug\SMPConsumer.ConsumerGUI.resources
+C:\csSchoolWork\ciss 346\SMP\tacotucan\SMPConsumer\obj\Debug\SMPConsumer.Properties.Resources.resources
+C:\csSchoolWork\ciss 346\SMP\tacotucan\SMPConsumer\obj\Debug\SMPConsumer.csproj.GenerateResource.cache
+C:\csSchoolWork\ciss 346\SMP\tacotucan\SMPConsumer\obj\Debug\SMPConsumer.csproj.CoreCompileInputs.cache
+C:\csSchoolWork\ciss 346\SMP\tacotucan\SMPConsumer\obj\Debug\SMPConsumer.exe
+C:\csSchoolWork\ciss 346\SMP\tacotucan\SMPConsumer\obj\Debug\SMPConsumer.pdb
+C:\Users\atsoc\Desktop\Spring\tacotucan\SMPConsumer\bin\Debug\SMPConsumer.exe.config
+C:\Users\atsoc\Desktop\Spring\tacotucan\SMPConsumer\bin\Debug\SMPConsumer.exe
+C:\Users\atsoc\Desktop\Spring\tacotucan\SMPConsumer\bin\Debug\SMPConsumer.pdb
+C:\Users\atsoc\Desktop\Spring\tacotucan\SMPConsumer\obj\Debug\SMPConsumer.csproj.AssemblyReference.cache
+C:\Users\atsoc\Desktop\Spring\tacotucan\SMPConsumer\obj\Debug\SMPConsumer.csproj.SuggestedBindingRedirects.cache
+C:\Users\atsoc\Desktop\Spring\tacotucan\SMPConsumer\obj\Debug\SMPConsumer.ConsumerGUI.resources
+C:\Users\atsoc\Desktop\Spring\tacotucan\SMPConsumer\obj\Debug\SMPConsumer.Properties.Resources.resources
+C:\Users\atsoc\Desktop\Spring\tacotucan\SMPConsumer\obj\Debug\SMPConsumer.csproj.GenerateResource.cache
+C:\Users\atsoc\Desktop\Spring\tacotucan\SMPConsumer\obj\Debug\SMPConsumer.csproj.CoreCompileInputs.cache
+C:\Users\atsoc\Desktop\Spring\tacotucan\SMPConsumer\obj\Debug\SMPConsumer.exe
+C:\Users\atsoc\Desktop\Spring\tacotucan\SMPConsumer\obj\Debug\SMPConsumer.pdb
+E:\school\WWU\ciss 346\taco tucan next\tacotucan-main\SMPConsumer\bin\Debug\SMPConsumer.exe.config
+E:\school\WWU\ciss 346\taco tucan next\tacotucan-main\SMPConsumer\bin\Debug\SMPConsumer.exe
+E:\school\WWU\ciss 346\taco tucan next\tacotucan-main\SMPConsumer\bin\Debug\SMPConsumer.pdb
+E:\school\WWU\ciss 346\taco tucan next\tacotucan-main\SMPConsumer\obj\Debug\SMPConsumer.csproj.AssemblyReference.cache
+E:\school\WWU\ciss 346\taco tucan next\tacotucan-main\SMPConsumer\obj\Debug\SMPConsumer.csproj.SuggestedBindingRedirects.cache
+E:\school\WWU\ciss 346\taco tucan next\tacotucan-main\SMPConsumer\obj\Debug\SMPConsumer.ConsumerGUI.resources
+E:\school\WWU\ciss 346\taco tucan next\tacotucan-main\SMPConsumer\obj\Debug\SMPConsumer.Properties.Resources.resources
+E:\school\WWU\ciss 346\taco tucan next\tacotucan-main\SMPConsumer\obj\Debug\SMPConsumer.csproj.GenerateResource.cache
+E:\school\WWU\ciss 346\taco tucan next\tacotucan-main\SMPConsumer\obj\Debug\SMPConsumer.csproj.CoreCompileInputs.cache
+E:\school\WWU\ciss 346\taco tucan next\tacotucan-main\SMPConsumer\obj\Debug\SMPConsumer.exe
+E:\school\WWU\ciss 346\taco tucan next\tacotucan-main\SMPConsumer\obj\Debug\SMPConsumer.pdb

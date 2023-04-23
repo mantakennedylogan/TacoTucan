@@ -1,0 +1,46 @@
+C:\csSchoolWork\ciss 346\SMP\tacotucan\SMPProducer\bin\Debug\SMPProducer.exe.config
+C:\csSchoolWork\ciss 346\SMP\tacotucan\SMPProducer\bin\Debug\SMPProducer.exe
+C:\csSchoolWork\ciss 346\SMP\tacotucan\SMPProducer\bin\Debug\SMPProducer.pdb
+C:\csSchoolWork\ciss 346\SMP\tacotucan\SMPProducer\obj\Debug\SMPProducer.csproj.AssemblyReference.cache
+C:\csSchoolWork\ciss 346\SMP\tacotucan\SMPProducer\obj\Debug\SMPProducer.csproj.SuggestedBindingRedirects.cache
+C:\csSchoolWork\ciss 346\SMP\tacotucan\SMPProducer\obj\Debug\SMPProducer.Properties.Resources.resources
+C:\csSchoolWork\ciss 346\SMP\tacotucan\SMPProducer\obj\Debug\SMPProducer.csproj.GenerateResource.cache
+C:\csSchoolWork\ciss 346\SMP\tacotucan\SMPProducer\obj\Debug\SMPProducer.csproj.CoreCompileInputs.cache
+C:\csSchoolWork\ciss 346\SMP\tacotucan\SMPProducer\obj\Debug\SMPProducer.exe
+C:\csSchoolWork\ciss 346\SMP\tacotucan\SMPProducer\obj\Debug\SMPProducer.pdb
+E:\school\WWU\ciss 346\tacotucan\SMPProducer\bin\Debug\SMPProducer.exe.config
+E:\school\WWU\ciss 346\tacotucan\SMPProducer\bin\Debug\SMPProducer.exe
+E:\school\WWU\ciss 346\tacotucan\SMPProducer\bin\Debug\SMPProducer.pdb
+E:\school\WWU\ciss 346\tacotucan\SMPProducer\obj\Debug\SMPProducer.csproj.AssemblyReference.cache
+E:\school\WWU\ciss 346\tacotucan\SMPProducer\obj\Debug\SMPProducer.csproj.SuggestedBindingRedirects.cache
+E:\school\WWU\ciss 346\tacotucan\SMPProducer\obj\Debug\SMPProducer.Properties.Resources.resources
+E:\school\WWU\ciss 346\tacotucan\SMPProducer\obj\Debug\SMPProducer.csproj.GenerateResource.cache
+E:\school\WWU\ciss 346\tacotucan\SMPProducer\obj\Debug\SMPProducer.csproj.CoreCompileInputs.cache
+E:\school\WWU\ciss 346\tacotucan\SMPProducer\obj\Debug\SMPProducer.exe
+E:\school\WWU\ciss 346\tacotucan\SMPProducer\obj\Debug\SMPProducer.pdb
+C:\csSchoolWork\ciss 346\SMP\tacotucan\SMPProducer\obj\Debug\SMPProducer.Producer.resources
+C:\Users\atsoc\Desktop\Spring\tacotucan\SMPProducer\bin\Debug\SMPProducer.exe.config
+C:\Users\atsoc\Desktop\Spring\tacotucan\SMPProducer\bin\Debug\SMPProducer.exe
+C:\Users\atsoc\Desktop\Spring\tacotucan\SMPProducer\bin\Debug\SMPProducer.pdb
+C:\Users\atsoc\Desktop\Spring\tacotucan\SMPProducer\obj\Debug\SMPProducer.csproj.AssemblyReference.cache
+C:\Users\atsoc\Desktop\Spring\tacotucan\SMPProducer\obj\Debug\SMPProducer.csproj.SuggestedBindingRedirects.cache
+C:\Users\atsoc\Desktop\Spring\tacotucan\SMPProducer\obj\Debug\SMPProducer.Producer.resources
+C:\Users\atsoc\Desktop\Spring\tacotucan\SMPProducer\obj\Debug\SMPProducer.Properties.Resources.resources
+C:\Users\atsoc\Desktop\Spring\tacotucan\SMPProducer\obj\Debug\SMPProducer.csproj.GenerateResource.cache
+C:\Users\atsoc\Desktop\Spring\tacotucan\SMPProducer\obj\Debug\SMPProducer.csproj.CoreCompileInputs.cache
+C:\Users\atsoc\Desktop\Spring\tacotucan\SMPProducer\obj\Debug\SMPProducer.exe
+C:\Users\atsoc\Desktop\Spring\tacotucan\SMPProducer\obj\Debug\SMPProducer.pdb
+E:\school\WWU\ciss 346\taco tucan next\tacotucan-main\SMPProducer\bin\Debug\SMPProducer.exe.config
+E:\school\WWU\ciss 346\taco tucan next\tacotucan-main\SMPProducer\bin\Debug\SMPProducer.exe
+E:\school\WWU\ciss 346\taco tucan next\tacotucan-main\SMPProducer\bin\Debug\SMPProducer.pdb
+E:\school\WWU\ciss 346\taco tucan next\tacotucan-main\SMPProducer\bin\Debug\Library.dll
+E:\school\WWU\ciss 346\taco tucan next\tacotucan-main\SMPProducer\bin\Debug\Library.pdb
+E:\school\WWU\ciss 346\taco tucan next\tacotucan-main\SMPProducer\obj\Debug\SMPProducer.csproj.AssemblyReference.cache
+E:\school\WWU\ciss 346\taco tucan next\tacotucan-main\SMPProducer\obj\Debug\SMPProducer.csproj.SuggestedBindingRedirects.cache
+E:\school\WWU\ciss 346\taco tucan next\tacotucan-main\SMPProducer\obj\Debug\SMPProducer.Producer.resources
+E:\school\WWU\ciss 346\taco tucan next\tacotucan-main\SMPProducer\obj\Debug\SMPProducer.Properties.Resources.resources
+E:\school\WWU\ciss 346\taco tucan next\tacotucan-main\SMPProducer\obj\Debug\SMPProducer.csproj.GenerateResource.cache
+E:\school\WWU\ciss 346\taco tucan next\tacotucan-main\SMPProducer\obj\Debug\SMPProducer.csproj.CoreCompileInputs.cache
+E:\school\WWU\ciss 346\taco tucan next\tacotucan-main\SMPProducer\obj\Debug\SMPProducer.csproj.CopyComplete
+E:\school\WWU\ciss 346\taco tucan next\tacotucan-main\SMPProducer\obj\Debug\SMPProducer.exe
+E:\school\WWU\ciss 346\taco tucan next\tacotucan-main\SMPProducer\obj\Debug\SMPProducer.pdb

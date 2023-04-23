@@ -1,0 +1,40 @@
+C:\Users\Isabe\Documents\Western\year 3\Spring\ciss 346\ClientServerPrototype\Server\obj\Debug\Server.csproj.AssemblyReference.cache
+C:\Users\Isabe\Documents\Western\year 3\Spring\ciss 346\ClientServerPrototype\Server\obj\Debug\Server.csproj.SuggestedBindingRedirects.cache
+C:\Users\Isabe\Documents\Western\year 3\Spring\ciss 346\ClientServerPrototype\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+C:\Users\Isabe\Documents\Western\year 3\Spring\ciss 346\ClientServerPrototype\Server\bin\Debug\Server.exe.config
+C:\Users\Isabe\Documents\Western\year 3\Spring\ciss 346\ClientServerPrototype\Server\bin\Debug\Server.exe
+C:\Users\Isabe\Documents\Western\year 3\Spring\ciss 346\ClientServerPrototype\Server\bin\Debug\Server.pdb
+C:\Users\Isabe\Documents\Western\year 3\Spring\ciss 346\ClientServerPrototype\Server\obj\Debug\Server.exe
+C:\Users\Isabe\Documents\Western\year 3\Spring\ciss 346\ClientServerPrototype\Server\obj\Debug\Server.pdb
+C:\Users\Isabe\Documents\Western\year 3\Spring\ciss 346\ClientServerPrototype\Server\obj\Debug\Server.ServerGUI.resources
+C:\Users\Isabe\Documents\Western\year 3\Spring\ciss 346\ClientServerPrototype\Server\obj\Debug\Server.csproj.GenerateResource.cache
+C:\csSchoolWork\ciss 346\SMP\tacotucan\Server\bin\Debug\Server.exe.config
+C:\csSchoolWork\ciss 346\SMP\tacotucan\Server\bin\Debug\Server.exe
+C:\csSchoolWork\ciss 346\SMP\tacotucan\Server\bin\Debug\Server.pdb
+C:\csSchoolWork\ciss 346\SMP\tacotucan\Server\obj\Debug\Server.csproj.AssemblyReference.cache
+C:\csSchoolWork\ciss 346\SMP\tacotucan\Server\obj\Debug\Server.csproj.SuggestedBindingRedirects.cache
+C:\csSchoolWork\ciss 346\SMP\tacotucan\Server\obj\Debug\Server.ServerGUI.resources
+C:\csSchoolWork\ciss 346\SMP\tacotucan\Server\obj\Debug\Server.csproj.GenerateResource.cache
+C:\csSchoolWork\ciss 346\SMP\tacotucan\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+C:\csSchoolWork\ciss 346\SMP\tacotucan\Server\obj\Debug\Server.exe
+C:\csSchoolWork\ciss 346\SMP\tacotucan\Server\obj\Debug\Server.pdb
+C:\Users\atsoc\Desktop\Spring\tacotucan\Server\bin\Debug\Server.exe.config
+C:\Users\atsoc\Desktop\Spring\tacotucan\Server\bin\Debug\Server.exe
+C:\Users\atsoc\Desktop\Spring\tacotucan\Server\bin\Debug\Server.pdb
+C:\Users\atsoc\Desktop\Spring\tacotucan\Server\obj\Debug\Server.csproj.AssemblyReference.cache
+C:\Users\atsoc\Desktop\Spring\tacotucan\Server\obj\Debug\Server.csproj.SuggestedBindingRedirects.cache
+C:\Users\atsoc\Desktop\Spring\tacotucan\Server\obj\Debug\Server.ServerGUI.resources
+C:\Users\atsoc\Desktop\Spring\tacotucan\Server\obj\Debug\Server.csproj.GenerateResource.cache
+C:\Users\atsoc\Desktop\Spring\tacotucan\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+C:\Users\atsoc\Desktop\Spring\tacotucan\Server\obj\Debug\Server.exe
+C:\Users\atsoc\Desktop\Spring\tacotucan\Server\obj\Debug\Server.pdb
+E:\school\WWU\ciss 346\taco tucan next\tacotucan-main\Server\bin\Debug\Server.exe.config
+E:\school\WWU\ciss 346\taco tucan next\tacotucan-main\Server\bin\Debug\Server.exe
+E:\school\WWU\ciss 346\taco tucan next\tacotucan-main\Server\bin\Debug\Server.pdb
+E:\school\WWU\ciss 346\taco tucan next\tacotucan-main\Server\obj\Debug\Server.csproj.AssemblyReference.cache
+E:\school\WWU\ciss 346\taco tucan next\tacotucan-main\Server\obj\Debug\Server.csproj.SuggestedBindingRedirects.cache
+E:\school\WWU\ciss 346\taco tucan next\tacotucan-main\Server\obj\Debug\Server.ServerGUI.resources
+E:\school\WWU\ciss 346\taco tucan next\tacotucan-main\Server\obj\Debug\Server.csproj.GenerateResource.cache
+E:\school\WWU\ciss 346\taco tucan next\tacotucan-main\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+E:\school\WWU\ciss 346\taco tucan next\tacotucan-main\Server\obj\Debug\Server.exe
+E:\school\WWU\ciss 346\taco tucan next\tacotucan-main\Server\obj\Debug\Server.pdb

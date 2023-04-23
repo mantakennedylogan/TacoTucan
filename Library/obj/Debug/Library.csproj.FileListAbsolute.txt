@@ -1,0 +1,6 @@
+E:\school\WWU\ciss 346\taco tucan next\tacotucan-main\Library\bin\Debug\Library.dll
+E:\school\WWU\ciss 346\taco tucan next\tacotucan-main\Library\bin\Debug\Library.pdb
+E:\school\WWU\ciss 346\taco tucan next\tacotucan-main\Library\obj\Debug\Library.csproj.AssemblyReference.cache
+E:\school\WWU\ciss 346\taco tucan next\tacotucan-main\Library\obj\Debug\Library.csproj.CoreCompileInputs.cache
+E:\school\WWU\ciss 346\taco tucan next\tacotucan-main\Library\obj\Debug\Library.dll
+E:\school\WWU\ciss 346\taco tucan next\tacotucan-main\Library\obj\Debug\Library.pdb
