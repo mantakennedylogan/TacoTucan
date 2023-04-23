@@ -62,33 +62,24 @@ namespace SMPConsumer
             string text = "";
             Boolean readLine = false;
             string priority = GetPriorityLevel();
+            int linesread = 0;
             int times = 0;
             foreach (string line in File.ReadAllLines(path))
             {
                 // handles when no priority is set
                 if (string.Equals(priority, "all"))
                 {
-                    if (!string.Equals(line, "PRIORITY_LOW")
-                                    && !string.Equals(line, "PRIORITY_MEDIUM")
-                                    && !string.Equals(line, "PRIORITY_HIGH")
-                                    && !string.Equals(line, "\r")
-                                    && !string.Equals(line, "\n")
-                                    && !string.Equals(line, "\r\n")
-                                    && !string.Equals(line, ""))
-                    {
-                        times += 1;
-                        if (allCount == times)
-                        {
-                            allCount += 1;
-                            text += line + "\r\n";
-                            break;
-                        }
-                    }
+                    text = "NO SELECTION";
                 } 
+
                 if (readLine == true)
                 {
-                    text = line + "\r\n";
-                    break;
+                    linesread += 1;
+                    text += line + "\r\n";
+                    if (linesread == 2)
+                    {
+                        break;
+                    }
                 }
 
                 if (string.Equals(priority, "PRIORITY_LOW"))

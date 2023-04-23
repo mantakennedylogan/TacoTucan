@@ -4,3 +4,9 @@ E:\school\WWU\ciss 346\taco tucan next\tacotucan-main\Library\obj\Debug\Library.
 E:\school\WWU\ciss 346\taco tucan next\tacotucan-main\Library\obj\Debug\Library.csproj.CoreCompileInputs.cache
 E:\school\WWU\ciss 346\taco tucan next\tacotucan-main\Library\obj\Debug\Library.dll
 E:\school\WWU\ciss 346\taco tucan next\tacotucan-main\Library\obj\Debug\Library.pdb
+C:\Users\atsoc\Desktop\Spring\TacoTucan\Library\bin\Debug\Library.dll
+C:\Users\atsoc\Desktop\Spring\TacoTucan\Library\bin\Debug\Library.pdb
+C:\Users\atsoc\Desktop\Spring\TacoTucan\Library\obj\Debug\Library.csproj.AssemblyReference.cache
+C:\Users\atsoc\Desktop\Spring\TacoTucan\Library\obj\Debug\Library.csproj.CoreCompileInputs.cache
+C:\Users\atsoc\Desktop\Spring\TacoTucan\Library\obj\Debug\Library.dll
+C:\Users\atsoc\Desktop\Spring\TacoTucan\Library\obj\Debug\Library.pdb

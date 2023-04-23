@@ -38,7 +38,6 @@
             this.MessageContentTextBox = new System.Windows.Forms.TextBox();
             this.MessageContentLabel = new System.Windows.Forms.Label();
             this.PriorityGroupBox = new System.Windows.Forms.GroupBox();
-            this.AllRadioButton = new System.Windows.Forms.RadioButton();
             this.HighRadioButton = new System.Windows.Forms.RadioButton();
             this.MediumRadioButton = new System.Windows.Forms.RadioButton();
             this.LowRadioButton = new System.Windows.Forms.RadioButton();
@@ -135,6 +134,7 @@
             this.MessageContentTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 16, 4);
             this.MessageContentTextBox.Multiline = true;
             this.MessageContentTextBox.Name = "MessageContentTextBox";
+            this.MessageContentTextBox.ReadOnly = true;
             this.MessageContentTextBox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.MessageContentTextBox.Size = new System.Drawing.Size(491, 175);
             this.MessageContentTextBox.TabIndex = 2;
@@ -151,7 +151,6 @@
             // 
             // PriorityGroupBox
             // 
-            this.PriorityGroupBox.Controls.Add(this.AllRadioButton);
             this.PriorityGroupBox.Controls.Add(this.HighRadioButton);
             this.PriorityGroupBox.Controls.Add(this.MediumRadioButton);
             this.PriorityGroupBox.Controls.Add(this.LowRadioButton);
@@ -165,22 +164,11 @@
             this.PriorityGroupBox.Text = "Priority";
             this.PriorityGroupBox.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
-            // AllRadioButton
-            // 
-            this.AllRadioButton.AutoSize = true;
-            this.AllRadioButton.Location = new System.Drawing.Point(12, 192);
-            this.AllRadioButton.Name = "AllRadioButton";
-            this.AllRadioButton.Size = new System.Drawing.Size(43, 20);
-            this.AllRadioButton.TabIndex = 3;
-            this.AllRadioButton.Text = "All";
-            this.AllRadioButton.UseVisualStyleBackColor = true;
-            this.AllRadioButton.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
-            // 
             // HighRadioButton
             // 
             this.HighRadioButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.HighRadioButton.AutoSize = true;
-            this.HighRadioButton.Location = new System.Drawing.Point(12, 144);
+            this.HighRadioButton.Location = new System.Drawing.Point(12, 176);
             this.HighRadioButton.Margin = new System.Windows.Forms.Padding(8, 15, 8, 25);
             this.HighRadioButton.Name = "HighRadioButton";
             this.HighRadioButton.Size = new System.Drawing.Size(56, 20);
@@ -192,7 +180,7 @@
             // 
             this.MediumRadioButton.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.MediumRadioButton.AutoSize = true;
-            this.MediumRadioButton.Location = new System.Drawing.Point(12, 94);
+            this.MediumRadioButton.Location = new System.Drawing.Point(12, 116);
             this.MediumRadioButton.Margin = new System.Windows.Forms.Padding(8, 15, 8, 15);
             this.MediumRadioButton.Name = "MediumRadioButton";
             this.MediumRadioButton.Size = new System.Drawing.Size(76, 20);
@@ -203,7 +191,7 @@
             // LowRadioButton
             // 
             this.LowRadioButton.AutoSize = true;
-            this.LowRadioButton.Location = new System.Drawing.Point(12, 44);
+            this.LowRadioButton.Location = new System.Drawing.Point(12, 53);
             this.LowRadioButton.Margin = new System.Windows.Forms.Padding(8, 25, 8, 15);
             this.LowRadioButton.Name = "LowRadioButton";
             this.LowRadioButton.Size = new System.Drawing.Size(52, 20);
@@ -246,7 +234,6 @@
         private System.Windows.Forms.RadioButton HighRadioButton;
         private System.Windows.Forms.RadioButton MediumRadioButton;
         private System.Windows.Forms.RadioButton LowRadioButton;
-        private System.Windows.Forms.RadioButton AllRadioButton;
     }
 }
 

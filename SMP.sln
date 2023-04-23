@@ -5,7 +5,7 @@ VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMPProducer", "SMPProducer\SMPProducer.csproj", "{023F6EB9-8177-4AC4-9B88-5F955A8B02CA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "Server\Server.csproj", "{179F25CF-AF2C-4ACD-9536-8D2B2AC302C4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMPServer", "Server\SMPServer.csproj", "{179F25CF-AF2C-4ACD-9536-8D2B2AC302C4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMPConsumer", "SMPConsumer\SMPConsumer.csproj", "{CB078929-EF6E-4080-8813-F36A1EBDE5D6}"
 EndProject

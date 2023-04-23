@@ -44,3 +44,6 @@ E:\school\WWU\ciss 346\taco tucan next\tacotucan-main\SMPProducer\obj\Debug\SMPP
 E:\school\WWU\ciss 346\taco tucan next\tacotucan-main\SMPProducer\obj\Debug\SMPProducer.csproj.CopyComplete
 E:\school\WWU\ciss 346\taco tucan next\tacotucan-main\SMPProducer\obj\Debug\SMPProducer.exe
 E:\school\WWU\ciss 346\taco tucan next\tacotucan-main\SMPProducer\obj\Debug\SMPProducer.pdb
+C:\Users\atsoc\Desktop\Spring\TacoTucan\SMPProducer\bin\Debug\Library.dll
+C:\Users\atsoc\Desktop\Spring\TacoTucan\SMPProducer\bin\Debug\Library.pdb
+C:\Users\atsoc\Desktop\Spring\TacoTucan\SMPProducer\obj\Debug\SMPProducer.csproj.CopyComplete
