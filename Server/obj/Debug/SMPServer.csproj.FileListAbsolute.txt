@@ -1,0 +1,10 @@
+C:\Users\atsoc\Desktop\Spring\tacotucan\Server\bin\Debug\Server.exe.config
+C:\Users\atsoc\Desktop\Spring\tacotucan\Server\bin\Debug\Server.exe
+C:\Users\atsoc\Desktop\Spring\tacotucan\Server\bin\Debug\Server.pdb
+C:\Users\atsoc\Desktop\Spring\tacotucan\Server\obj\Debug\SMPServer.csproj.AssemblyReference.cache
+C:\Users\atsoc\Desktop\Spring\tacotucan\Server\obj\Debug\SMPServer.csproj.SuggestedBindingRedirects.cache
+C:\Users\atsoc\Desktop\Spring\tacotucan\Server\obj\Debug\Server.ServerGUI.resources
+C:\Users\atsoc\Desktop\Spring\tacotucan\Server\obj\Debug\SMPServer.csproj.GenerateResource.cache
+C:\Users\atsoc\Desktop\Spring\tacotucan\Server\obj\Debug\SMPServer.csproj.CoreCompileInputs.cache
+C:\Users\atsoc\Desktop\Spring\tacotucan\Server\obj\Debug\Server.exe
+C:\Users\atsoc\Desktop\Spring\tacotucan\Server\obj\Debug\Server.pdb

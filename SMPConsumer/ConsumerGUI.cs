@@ -5,6 +5,8 @@ using System.Data;
 using System.Drawing;
 using System.IO;
 using System.Linq;
+using System.Net.NetworkInformation;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -15,10 +17,7 @@ namespace SMPConsumer
 {
     public partial class ConsumerGUI : Form
     {
-        private int lowCount = 1;
-        private int highCount = 1;
-        private int mediumCount = 1;
-        private int allCount = 1;
+        
         public ConsumerGUI()
         {
             InitializeComponent();
@@ -63,9 +62,10 @@ namespace SMPConsumer
             Boolean readLine = false;
             string priority = GetPriorityLevel();
             int linesread = 0;
-            int times = 0;
-            foreach (string line in File.ReadAllLines(path))
+            string[] fileStrings = File.ReadAllLines(path);
+            for (int i = 0; i < fileStrings.Length; i++)
             {
+                string line = fileStrings[i];
                 // handles when no priority is set
                 if (string.Equals(priority, "all"))
                 {
@@ -76,8 +76,12 @@ namespace SMPConsumer
                 {
                     linesread += 1;
                     text += line + "\r\n";
+                    fileStrings = remove_from_array(fileStrings, i);
+                    i--;
                     if (linesread == 2)
                     {
+                        fileStrings = remove_from_array(fileStrings, i + 1);
+                        fileStrings = remove_from_array(fileStrings, i + 1);
                         break;
                     }
                 }
@@ -86,12 +90,11 @@ namespace SMPConsumer
                 {
                     if (string.Equals(line, "PRIORITY_LOW"))
                     {
-                        times += 1;
-                        if (times == lowCount)
-                        {
-                            lowCount += 1;
-                            readLine = true;
-                        }
+                        readLine = true;
+                        fileStrings = remove_from_array(fileStrings, i);
+                        i--;
+                        fileStrings = remove_from_array(fileStrings, i);
+                        i--;
                     }
                 }
 
@@ -99,12 +102,11 @@ namespace SMPConsumer
                 {
                     if (string.Equals(line, "PRIORITY_MEDIUM"))
                     {
-                        times += 1;
-                        if (times == mediumCount)
-                        {
-                            mediumCount += 1;
-                            readLine = true;
-                        }
+                        readLine = true;
+                        fileStrings = remove_from_array(fileStrings, i);
+                        i--;
+                        fileStrings = remove_from_array(fileStrings, i);
+                        i--;
                     }
                 }
 
@@ -112,42 +114,52 @@ namespace SMPConsumer
                 {
                     if (string.Equals(line, "PRIORITY_HIGH"))
                     {
-                        times += 1;
-                        if (times == highCount)
-                        {
-                            highCount += 1;
-                            readLine = true;
-                        }
+                        readLine = true;
+                        fileStrings = remove_from_array(fileStrings, i);
+                        i--;
+                        fileStrings = remove_from_array(fileStrings, i);
+                        i--;
                     }
                 }
             }
-
+            File.WriteAllLines(path, fileStrings);
             if (text == "")
             {
                 text = "no message";
-                if (string.Equals(priority, "PRIORITY_LOW"))
-                {
-                    lowCount = 1;
-                }
-                else if (string.Equals(priority, "PRIORITY_MEDIUM"))
-                {
-                    mediumCount = 1;
-                }
-                else if (string.Equals(priority, "PRIORITY_HIGH"))
-                {
-                    highCount = 1;
-                }
-                else if (string.Equals(priority, "all"))
-                {
-                    allCount = 1;
-                }
             }
+
             MessageContentTextBox.Text = text;
         }
 
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
         {
+        }
 
+        private string[] remove_from_array(string[] array, int index)
+        {
+            string[] newarray;
+            if (array.Length - 1 <= 0)
+            {
+                newarray = new string[0];
+                return newarray;
+            }
+
+            newarray = new string[array.Length - 1];
+            Boolean passedIndex = false;
+            for (int i = 0; i < array.Length; i++)
+            {
+                if (i == index)
+                {
+                    passedIndex = true;
+                }
+
+                if (passedIndex && i != index) {
+                    newarray[i - 1] = array[i]; 
+                } else if (i != index) {
+                    newarray[i] = array[i];
+                }
+            }
+            return newarray;
         }
     }
 }
