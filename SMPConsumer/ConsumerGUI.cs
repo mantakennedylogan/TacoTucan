@@ -81,7 +81,6 @@ namespace SMPConsumer
                     if (linesread == 2)
                     {
                         fileStrings = remove_from_array(fileStrings, i + 1);
-                        fileStrings = remove_from_array(fileStrings, i + 1);
                         break;
                     }
                 }
