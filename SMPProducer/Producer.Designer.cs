@@ -43,7 +43,7 @@
             this.HighRadioButton = new System.Windows.Forms.RadioButton();
             this.MediumRadioButton = new System.Windows.Forms.RadioButton();
             this.LowRadioButton = new System.Windows.Forms.RadioButton();
-            this.MessageSentTextBox = new System.Windows.Forms.TextBox();
+            this.ProducerStatusBar = new System.Windows.Forms.TextBox();
             this.SettingsGroupBox.SuspendLayout();
             this.MessageGroupBox.SuspendLayout();
             this.PPriortyGroupBox.SuspendLayout();
@@ -201,22 +201,22 @@
             this.LowRadioButton.UseVisualStyleBackColor = true;
             this.LowRadioButton.CheckedChanged += new System.EventHandler(this.LowRadioButton_CheckedChanged);
             // 
-            // MessageSentTextBox
+            // ProducerStatusBar
             // 
-            this.MessageSentTextBox.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.MessageSentTextBox.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.MessageSentTextBox.Location = new System.Drawing.Point(0, 317);
-            this.MessageSentTextBox.Name = "MessageSentTextBox";
-            this.MessageSentTextBox.ReadOnly = true;
-            this.MessageSentTextBox.Size = new System.Drawing.Size(534, 20);
-            this.MessageSentTextBox.TabIndex = 6;
+            this.ProducerStatusBar.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.ProducerStatusBar.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.ProducerStatusBar.Location = new System.Drawing.Point(0, 317);
+            this.ProducerStatusBar.Name = "ProducerStatusBar";
+            this.ProducerStatusBar.ReadOnly = true;
+            this.ProducerStatusBar.Size = new System.Drawing.Size(534, 20);
+            this.ProducerStatusBar.TabIndex = 6;
             // 
             // Producer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(534, 337);
-            this.Controls.Add(this.MessageSentTextBox);
+            this.Controls.Add(this.ProducerStatusBar);
             this.Controls.Add(this.MessageGroupBox);
             this.Controls.Add(this.ServerResponseTextBox);
             this.Controls.Add(this.ServerResponseLabel);
@@ -251,7 +251,7 @@
         private System.Windows.Forms.Button SendMessageButton;
         private System.Windows.Forms.Label MessageContentLabel;
         private System.Windows.Forms.TextBox MessageContentTextBox;
-        private System.Windows.Forms.TextBox MessageSentTextBox;
+        private System.Windows.Forms.TextBox ProducerStatusBar;
     }
 }
 

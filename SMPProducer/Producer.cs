@@ -67,7 +67,7 @@ namespace SMPProducer
             
             FileStream file;
             String path = @"../../../Messages.txt";
-            MessageSentTextBox.Text = String.Empty;
+            ProducerStatusBar.Text = String.Empty;
 
             if (File.Exists(path))
             {
@@ -102,7 +102,7 @@ namespace SMPProducer
                 }
                 else
                 {
-                    MessageSentTextBox.Text = "Please Select Priority";
+                    ProducerStatusBar.Text = "Please Select Priority";
                 }
 
                 if (check)
@@ -115,12 +115,12 @@ namespace SMPProducer
                         String timeStamp = "\n" + date.Month + "/" + date.Day + "/" + date.Year + " " + time.ToString(@"hh\:mm\:ss") + "\n";
                         SmpPacket packet = new SmpPacket("PutMessage", timeStamp, priority, MessageContentTextBox.Text);
                         writeMessageToFile(packet, file);
-                        MessageSentTextBox.Text = "Message Sent.";
+                        ProducerStatusBar.Text = "Message Sent.";
 
                     }
                     else
                     {
-                        MessageSentTextBox.Text = "Please Write Message";
+                        ProducerStatusBar.Text = "Please Write Message";
                     }
 
 

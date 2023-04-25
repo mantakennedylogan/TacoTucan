@@ -41,6 +41,7 @@
             this.HighRadioButton = new System.Windows.Forms.RadioButton();
             this.MediumRadioButton = new System.Windows.Forms.RadioButton();
             this.LowRadioButton = new System.Windows.Forms.RadioButton();
+            this.ConsumerStatusBar = new System.Windows.Forms.TextBox();
             this.SettingsGroupBox.SuspendLayout();
             this.MessageGroupBox.SuspendLayout();
             this.PriorityGroupBox.SuspendLayout();
@@ -193,11 +194,22 @@
             this.LowRadioButton.UseVisualStyleBackColor = true;
             this.LowRadioButton.CheckedChanged += new System.EventHandler(this.LowRadioButton_CheckedChanged);
             // 
+            // ConsumerStatusBar
+            // 
+            this.ConsumerStatusBar.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.ConsumerStatusBar.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.ConsumerStatusBar.Location = new System.Drawing.Point(0, 311);
+            this.ConsumerStatusBar.Name = "ConsumerStatusBar";
+            this.ConsumerStatusBar.ReadOnly = true;
+            this.ConsumerStatusBar.Size = new System.Drawing.Size(534, 20);
+            this.ConsumerStatusBar.TabIndex = 2;
+            // 
             // ConsumerGUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(534, 316);
+            this.ClientSize = new System.Drawing.Size(534, 331);
+            this.Controls.Add(this.ConsumerStatusBar);
             this.Controls.Add(this.MessageGroupBox);
             this.Controls.Add(this.SettingsGroupBox);
             this.Name = "ConsumerGUI";
@@ -209,6 +221,7 @@
             this.PriorityGroupBox.ResumeLayout(false);
             this.PriorityGroupBox.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -227,6 +240,7 @@
         private System.Windows.Forms.RadioButton HighRadioButton;
         private System.Windows.Forms.RadioButton MediumRadioButton;
         private System.Windows.Forms.RadioButton LowRadioButton;
+        private System.Windows.Forms.TextBox ConsumerStatusBar;
     }
 }
 

@@ -269,7 +269,7 @@
             // 
             this.ServerStatusTextBox.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.ServerStatusTextBox.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.ServerStatusTextBox.Location = new System.Drawing.Point(0, 377);
+            this.ServerStatusTextBox.Location = new System.Drawing.Point(0, 382);
             this.ServerStatusTextBox.Name = "ServerStatusTextBox";
             this.ServerStatusTextBox.ReadOnly = true;
             this.ServerStatusTextBox.Size = new System.Drawing.Size(459, 20);
@@ -279,7 +279,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(459, 397);
+            this.ClientSize = new System.Drawing.Size(459, 402);
             this.Controls.Add(this.ServerStatusTextBox);
             this.Controls.Add(this.MessagesGroupBox);
             this.Controls.Add(this.LastReceivedMessageGroupBox);
