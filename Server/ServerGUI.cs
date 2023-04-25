@@ -77,5 +77,10 @@ namespace Server
 
             MessageTextBox.Text = text;
         }
+
+        private void AllPriorityRadioButton_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

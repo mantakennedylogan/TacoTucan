@@ -116,5 +116,10 @@ namespace SMPProducer
 
 
         }
+
+        private void LowRadioButton_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

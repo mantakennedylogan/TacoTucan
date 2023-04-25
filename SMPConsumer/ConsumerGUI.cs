@@ -160,5 +160,10 @@ namespace SMPConsumer
             }
             return newarray;
         }
+
+        private void LowRadioButton_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -47,3 +47,17 @@ E:\school\WWU\ciss 346\taco tucan next\tacotucan-main\SMPProducer\obj\Debug\SMPP
 C:\Users\atsoc\Desktop\Spring\TacoTucan\SMPProducer\bin\Debug\Library.dll
 C:\Users\atsoc\Desktop\Spring\TacoTucan\SMPProducer\bin\Debug\Library.pdb
 C:\Users\atsoc\Desktop\Spring\TacoTucan\SMPProducer\obj\Debug\SMPProducer.csproj.CopyComplete
+D:\Spring 2023\CISS 346\TacoTucan\SMPProducer\bin\Debug\SMPProducer.exe.config
+D:\Spring 2023\CISS 346\TacoTucan\SMPProducer\bin\Debug\SMPProducer.exe
+D:\Spring 2023\CISS 346\TacoTucan\SMPProducer\bin\Debug\SMPProducer.pdb
+D:\Spring 2023\CISS 346\TacoTucan\SMPProducer\bin\Debug\Library.dll
+D:\Spring 2023\CISS 346\TacoTucan\SMPProducer\bin\Debug\Library.pdb
+D:\Spring 2023\CISS 346\TacoTucan\SMPProducer\obj\Debug\SMPProducer.csproj.AssemblyReference.cache
+D:\Spring 2023\CISS 346\TacoTucan\SMPProducer\obj\Debug\SMPProducer.csproj.SuggestedBindingRedirects.cache
+D:\Spring 2023\CISS 346\TacoTucan\SMPProducer\obj\Debug\SMPProducer.Producer.resources
+D:\Spring 2023\CISS 346\TacoTucan\SMPProducer\obj\Debug\SMPProducer.Properties.Resources.resources
+D:\Spring 2023\CISS 346\TacoTucan\SMPProducer\obj\Debug\SMPProducer.csproj.GenerateResource.cache
+D:\Spring 2023\CISS 346\TacoTucan\SMPProducer\obj\Debug\SMPProducer.csproj.CoreCompileInputs.cache
+D:\Spring 2023\CISS 346\TacoTucan\SMPProducer\obj\Debug\SMPProducer.csproj.CopyComplete
+D:\Spring 2023\CISS 346\TacoTucan\SMPProducer\obj\Debug\SMPProducer.exe
+D:\Spring 2023\CISS 346\TacoTucan\SMPProducer\obj\Debug\SMPProducer.pdb
