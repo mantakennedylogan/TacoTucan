@@ -181,10 +181,12 @@
             // 
             // MessageTextBox
             // 
+            this.MessageTextBox.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.MessageTextBox.Location = new System.Drawing.Point(112, 22);
             this.MessageTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.MessageTextBox.Multiline = true;
             this.MessageTextBox.Name = "MessageTextBox";
+            this.MessageTextBox.ReadOnly = true;
             this.MessageTextBox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.MessageTextBox.Size = new System.Drawing.Size(287, 126);
             this.MessageTextBox.TabIndex = 3;

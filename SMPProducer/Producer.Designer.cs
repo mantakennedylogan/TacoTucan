@@ -110,7 +110,7 @@
             // 
             this.ServerResponseTextBox.Location = new System.Drawing.Point(137, 71);
             this.ServerResponseTextBox.Name = "ServerResponseTextBox";
-            this.ServerResponseTextBox.Size = new System.Drawing.Size(345, 20);
+            this.ServerResponseTextBox.Size = new System.Drawing.Size(366, 20);
             this.ServerResponseTextBox.TabIndex = 4;
             // 
             // MessageGroupBox
@@ -130,7 +130,7 @@
             // 
             this.SendMessageButton.Location = new System.Drawing.Point(143, 173);
             this.SendMessageButton.Name = "SendMessageButton";
-            this.SendMessageButton.Size = new System.Drawing.Size(358, 25);
+            this.SendMessageButton.Size = new System.Drawing.Size(345, 25);
             this.SendMessageButton.TabIndex = 6;
             this.SendMessageButton.Text = "Send Message";
             this.SendMessageButton.UseVisualStyleBackColor = true;
@@ -152,7 +152,7 @@
             this.MessageContentTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.MessageContentTextBox.Multiline = true;
             this.MessageContentTextBox.Name = "MessageContentTextBox";
-            this.MessageContentTextBox.Size = new System.Drawing.Size(360, 107);
+            this.MessageContentTextBox.Size = new System.Drawing.Size(346, 107);
             this.MessageContentTextBox.TabIndex = 4;
             // 
             // PPriortyGroupBox

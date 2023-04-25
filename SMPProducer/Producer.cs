@@ -100,18 +100,31 @@ namespace SMPProducer
                     check = true;
                     priority = "PRIORITY_HIGH";
                 }
+                else
+                {
+                    MessageSentTextBox.Text = "Please Select Priority";
+                }
 
                 if (check)
                 {
                     DateTime date = DateTime.Today;
                     TimeSpan time = DateTime.Now.TimeOfDay;
-                    String timeStamp = "\n" + date.Month + "/" + date.Day + "/" + date.Year + " " + time.ToString(@"hh\:mm\:ss")+"\n";
 
-                    SmpPacket packet = new SmpPacket("PutMessage", timeStamp, priority, MessageContentTextBox.Text);
-                    writeMessageToFile(packet, file);
+                    if (MessageContentTextBox.Text != String.Empty)
+                    {
+                        String timeStamp = "\n" + date.Month + "/" + date.Day + "/" + date.Year + " " + time.ToString(@"hh\:mm\:ss") + "\n";
+                        SmpPacket packet = new SmpPacket("PutMessage", timeStamp, priority, MessageContentTextBox.Text);
+                        writeMessageToFile(packet, file);
+                        MessageSentTextBox.Text = "Message Sent";
 
-                    MessageSentTextBox.Text = "Message Sent...";
-                    
+                    }
+                    else
+                    {
+                        MessageSentTextBox.Text = "Please Write Message";
+                    }
+
+
+
                     MessageContentTextBox.Text = String.Empty;
                     file.Close();
                 }
