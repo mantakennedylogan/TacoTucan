@@ -115,7 +115,7 @@ namespace SMPProducer
                         String timeStamp = "\n" + date.Month + "/" + date.Day + "/" + date.Year + " " + time.ToString(@"hh\:mm\:ss") + "\n";
                         SmpPacket packet = new SmpPacket("PutMessage", timeStamp, priority, MessageContentTextBox.Text);
                         writeMessageToFile(packet, file);
-                        MessageSentTextBox.Text = "Message Sent";
+                        MessageSentTextBox.Text = "Message Sent.";
 
                     }
                     else
