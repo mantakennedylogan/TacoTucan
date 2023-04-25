@@ -67,6 +67,8 @@ namespace SMPProducer
             
             FileStream file;
             String path = @"../../../Messages.txt";
+            MessageSentTextBox.Text = String.Empty;
+
             if (File.Exists(path))
             {
                 file = File.Open(path, FileMode.Append);
@@ -107,6 +109,8 @@ namespace SMPProducer
 
                     SmpPacket packet = new SmpPacket("PutMessage", timeStamp, priority, MessageContentTextBox.Text);
                     writeMessageToFile(packet, file);
+
+                    MessageSentTextBox.Text = "Message Sent...";
                     
                     MessageContentTextBox.Text = String.Empty;
                     file.Close();

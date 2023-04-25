@@ -43,6 +43,7 @@
             this.HighRadioButton = new System.Windows.Forms.RadioButton();
             this.MediumRadioButton = new System.Windows.Forms.RadioButton();
             this.LowRadioButton = new System.Windows.Forms.RadioButton();
+            this.MessageSentTextBox = new System.Windows.Forms.TextBox();
             this.SettingsGroupBox.SuspendLayout();
             this.MessageGroupBox.SuspendLayout();
             this.PPriortyGroupBox.SuspendLayout();
@@ -56,7 +57,7 @@
             this.SettingsGroupBox.Controls.Add(this.ServerIPAddressLabel);
             this.SettingsGroupBox.Location = new System.Drawing.Point(12, 12);
             this.SettingsGroupBox.Name = "SettingsGroupBox";
-            this.SettingsGroupBox.Size = new System.Drawing.Size(499, 53);
+            this.SettingsGroupBox.Size = new System.Drawing.Size(510, 53);
             this.SettingsGroupBox.TabIndex = 0;
             this.SettingsGroupBox.TabStop = false;
             this.SettingsGroupBox.Text = "Settings";
@@ -120,7 +121,7 @@
             this.MessageGroupBox.Controls.Add(this.PPriortyGroupBox);
             this.MessageGroupBox.Location = new System.Drawing.Point(15, 97);
             this.MessageGroupBox.Name = "MessageGroupBox";
-            this.MessageGroupBox.Size = new System.Drawing.Size(496, 210);
+            this.MessageGroupBox.Size = new System.Drawing.Size(507, 210);
             this.MessageGroupBox.TabIndex = 5;
             this.MessageGroupBox.TabStop = false;
             this.MessageGroupBox.Text = "Message";
@@ -129,7 +130,7 @@
             // 
             this.SendMessageButton.Location = new System.Drawing.Point(143, 173);
             this.SendMessageButton.Name = "SendMessageButton";
-            this.SendMessageButton.Size = new System.Drawing.Size(324, 25);
+            this.SendMessageButton.Size = new System.Drawing.Size(358, 25);
             this.SendMessageButton.TabIndex = 6;
             this.SendMessageButton.Text = "Send Message";
             this.SendMessageButton.UseVisualStyleBackColor = true;
@@ -151,7 +152,7 @@
             this.MessageContentTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.MessageContentTextBox.Multiline = true;
             this.MessageContentTextBox.Name = "MessageContentTextBox";
-            this.MessageContentTextBox.Size = new System.Drawing.Size(325, 107);
+            this.MessageContentTextBox.Size = new System.Drawing.Size(360, 107);
             this.MessageContentTextBox.TabIndex = 4;
             // 
             // PPriortyGroupBox
@@ -173,7 +174,6 @@
             this.HighRadioButton.Name = "HighRadioButton";
             this.HighRadioButton.Size = new System.Drawing.Size(47, 17);
             this.HighRadioButton.TabIndex = 2;
-            this.HighRadioButton.TabStop = true;
             this.HighRadioButton.Text = "High";
             this.HighRadioButton.UseVisualStyleBackColor = true;
             // 
@@ -184,7 +184,6 @@
             this.MediumRadioButton.Name = "MediumRadioButton";
             this.MediumRadioButton.Size = new System.Drawing.Size(62, 17);
             this.MediumRadioButton.TabIndex = 1;
-            this.MediumRadioButton.TabStop = true;
             this.MediumRadioButton.Text = "Medium";
             this.MediumRadioButton.UseVisualStyleBackColor = true;
             this.MediumRadioButton.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
@@ -202,11 +201,24 @@
             this.LowRadioButton.UseVisualStyleBackColor = true;
             this.LowRadioButton.CheckedChanged += new System.EventHandler(this.LowRadioButton_CheckedChanged);
             // 
+            // MessageSentTextBox
+            // 
+            this.MessageSentTextBox.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.MessageSentTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.MessageSentTextBox.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.MessageSentTextBox.Location = new System.Drawing.Point(0, 324);
+            this.MessageSentTextBox.Margin = new System.Windows.Forms.Padding(1);
+            this.MessageSentTextBox.Name = "MessageSentTextBox";
+            this.MessageSentTextBox.ReadOnly = true;
+            this.MessageSentTextBox.Size = new System.Drawing.Size(534, 13);
+            this.MessageSentTextBox.TabIndex = 6;
+            // 
             // Producer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(534, 316);
+            this.ClientSize = new System.Drawing.Size(534, 337);
+            this.Controls.Add(this.MessageSentTextBox);
             this.Controls.Add(this.MessageGroupBox);
             this.Controls.Add(this.ServerResponseTextBox);
             this.Controls.Add(this.ServerResponseLabel);
@@ -241,6 +253,7 @@
         private System.Windows.Forms.Button SendMessageButton;
         private System.Windows.Forms.Label MessageContentLabel;
         private System.Windows.Forms.TextBox MessageContentTextBox;
+        private System.Windows.Forms.TextBox MessageSentTextBox;
     }
 }
 
