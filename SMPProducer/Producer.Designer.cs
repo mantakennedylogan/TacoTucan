@@ -204,13 +204,11 @@
             // MessageSentTextBox
             // 
             this.MessageSentTextBox.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.MessageSentTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.MessageSentTextBox.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.MessageSentTextBox.Location = new System.Drawing.Point(0, 324);
-            this.MessageSentTextBox.Margin = new System.Windows.Forms.Padding(1);
+            this.MessageSentTextBox.Location = new System.Drawing.Point(0, 317);
             this.MessageSentTextBox.Name = "MessageSentTextBox";
             this.MessageSentTextBox.ReadOnly = true;
-            this.MessageSentTextBox.Size = new System.Drawing.Size(534, 13);
+            this.MessageSentTextBox.Size = new System.Drawing.Size(534, 20);
             this.MessageSentTextBox.TabIndex = 6;
             // 
             // Producer

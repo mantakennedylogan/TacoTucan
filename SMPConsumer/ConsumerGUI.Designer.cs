@@ -129,6 +129,7 @@
             this.MessageContentTextBox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.MessageContentTextBox.Size = new System.Drawing.Size(369, 143);
             this.MessageContentTextBox.TabIndex = 2;
+            this.MessageContentTextBox.TextChanged += new System.EventHandler(this.MessageContentTextBox_TextChanged);
             // 
             // MessageContentLabel
             // 

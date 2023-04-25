@@ -47,6 +47,7 @@
             this.MediumPriorityadioButton = new System.Windows.Forms.RadioButton();
             this.HighPriorityRadioButton = new System.Windows.Forms.RadioButton();
             this.LowPriorityRadioButton = new System.Windows.Forms.RadioButton();
+            this.ServerStatusTextBox = new System.Windows.Forms.TextBox();
             this.SettingsGroupBox.SuspendLayout();
             this.LastReceivedMessageGroupBox.SuspendLayout();
             this.MessagesGroupBox.SuspendLayout();
@@ -239,7 +240,6 @@
             this.MediumPriorityadioButton.Name = "MediumPriorityadioButton";
             this.MediumPriorityadioButton.Size = new System.Drawing.Size(62, 17);
             this.MediumPriorityadioButton.TabIndex = 2;
-            this.MediumPriorityadioButton.TabStop = true;
             this.MediumPriorityadioButton.Text = "Medium";
             this.MediumPriorityadioButton.UseVisualStyleBackColor = true;
             // 
@@ -251,7 +251,6 @@
             this.HighPriorityRadioButton.Name = "HighPriorityRadioButton";
             this.HighPriorityRadioButton.Size = new System.Drawing.Size(47, 17);
             this.HighPriorityRadioButton.TabIndex = 1;
-            this.HighPriorityRadioButton.TabStop = true;
             this.HighPriorityRadioButton.Text = "High";
             this.HighPriorityRadioButton.UseVisualStyleBackColor = true;
             // 
@@ -263,15 +262,25 @@
             this.LowPriorityRadioButton.Name = "LowPriorityRadioButton";
             this.LowPriorityRadioButton.Size = new System.Drawing.Size(45, 17);
             this.LowPriorityRadioButton.TabIndex = 0;
-            this.LowPriorityRadioButton.TabStop = true;
             this.LowPriorityRadioButton.Text = "Low";
             this.LowPriorityRadioButton.UseVisualStyleBackColor = true;
+            // 
+            // ServerStatusTextBox
+            // 
+            this.ServerStatusTextBox.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.ServerStatusTextBox.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.ServerStatusTextBox.Location = new System.Drawing.Point(0, 377);
+            this.ServerStatusTextBox.Name = "ServerStatusTextBox";
+            this.ServerStatusTextBox.ReadOnly = true;
+            this.ServerStatusTextBox.Size = new System.Drawing.Size(459, 20);
+            this.ServerStatusTextBox.TabIndex = 4;
             // 
             // ServerGUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(459, 397);
+            this.Controls.Add(this.ServerStatusTextBox);
             this.Controls.Add(this.MessagesGroupBox);
             this.Controls.Add(this.LastReceivedMessageGroupBox);
             this.Controls.Add(this.SettingsGroupBox);
@@ -288,6 +297,7 @@
             this.PriorityGroupBox.ResumeLayout(false);
             this.PriorityGroupBox.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -312,6 +322,7 @@
         private System.Windows.Forms.RadioButton LowPriorityRadioButton;
         private System.Windows.Forms.Button ShowMessagesButton;
         private System.Windows.Forms.TextBox MessageTextBox;
+        private System.Windows.Forms.TextBox ServerStatusTextBox;
     }
 }
 

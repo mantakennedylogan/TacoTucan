@@ -36,6 +36,8 @@ namespace Server
         
         private void ShowMessagesButton_Click(object sender, EventArgs e)
         {
+            ServerStatusTextBox.Text = String.Empty;
+            
             string path = @"..\..\..\Messages.txt";
 
             string text = "";
@@ -76,7 +78,17 @@ namespace Server
             }
 
             MessageTextBox.Text = text;
+            if(MessageTextBox.Text == String.Empty)
+            {
+                ServerStatusTextBox.Text = "No messages with selected priority";
+            }
+            else
+            {
+                ServerStatusTextBox.Text = "Done.";
+            }
         }
+
+        
 
         private void AllPriorityRadioButton_CheckedChanged(object sender, EventArgs e)
         {

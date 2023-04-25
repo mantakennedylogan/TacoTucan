@@ -165,5 +165,10 @@ namespace SMPConsumer
         {
 
         }
+
+        private void MessageContentTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
