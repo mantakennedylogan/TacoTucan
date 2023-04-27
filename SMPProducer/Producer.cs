@@ -102,7 +102,7 @@ namespace SMPProducer
                 }
                 else
                 {
-                    ProducerStatusBar.Text = "Please Select Priority";
+                    ProducerStatusBar.Text = "Please select priority.";
                 }
 
                 if (check)
@@ -115,12 +115,12 @@ namespace SMPProducer
                         String timeStamp = "\n" + date.Month + "/" + date.Day + "/" + date.Year + " " + time.ToString(@"hh\:mm\:ss") + "\n";
                         SmpPacket packet = new SmpPacket("PutMessage", timeStamp, priority, MessageContentTextBox.Text);
                         writeMessageToFile(packet, file);
-                        ProducerStatusBar.Text = "Message Sent.";
+                        ProducerStatusBar.Text = "Message sent.";
 
                     }
                     else
                     {
-                        ProducerStatusBar.Text = "Please Write Message";
+                        ProducerStatusBar.Text = "Please write message.";
                     }
 
 

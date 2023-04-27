@@ -214,6 +214,7 @@
             this.Controls.Add(this.SettingsGroupBox);
             this.Name = "ConsumerGUI";
             this.Text = "SMP Client Consumer Version 1.0";
+            this.Load += new System.EventHandler(this.ConsumerGUI_Load);
             this.SettingsGroupBox.ResumeLayout(false);
             this.SettingsGroupBox.PerformLayout();
             this.MessageGroupBox.ResumeLayout(false);

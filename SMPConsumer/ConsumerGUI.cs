@@ -69,7 +69,7 @@ namespace SMPConsumer
                 // handles when no priority is set
                 if (string.Equals(priority, "all"))
                 {
-                    text = "NO SELECTION";
+                    ConsumerStatusBar.Text = "Please select prioirty.";
                 } 
 
                 if (readLine == true)
@@ -120,11 +120,13 @@ namespace SMPConsumer
                         i--;
                     }
                 }
+                ConsumerStatusBar.Text = "Done.";
+
             }
             File.WriteAllLines(path, fileStrings);
             if (text == "")
             {
-                text = "no message";
+                ConsumerStatusBar.Text = "No messages with selected priority.";
             }
 
             MessageContentTextBox.Text = text;
@@ -167,6 +169,11 @@ namespace SMPConsumer
         }
 
         private void MessageContentTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ConsumerGUI_Load(object sender, EventArgs e)
         {
 
         }
