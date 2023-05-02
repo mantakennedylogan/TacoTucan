@@ -49,6 +49,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Server.cs" />
     <Compile Include="ServerGUI.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -65,6 +66,12 @@
     <EmbeddedResource Include="ServerGUI.resx">
       <DependentUpon>ServerGUI.cs</DependentUpon>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Library\Library.csproj">
+      <Project>{07d28642-2330-4fce-860f-09abcc1b426a}</Project>
+      <Name>Library</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

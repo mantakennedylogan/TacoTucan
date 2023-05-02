@@ -10,3 +10,9 @@ C:\Users\atsoc\Desktop\Spring\TacoTucan\Library\obj\Debug\Library.csproj.Assembl
 C:\Users\atsoc\Desktop\Spring\TacoTucan\Library\obj\Debug\Library.csproj.CoreCompileInputs.cache
 C:\Users\atsoc\Desktop\Spring\TacoTucan\Library\obj\Debug\Library.dll
 C:\Users\atsoc\Desktop\Spring\TacoTucan\Library\obj\Debug\Library.pdb
+C:\csSchoolWork\ciss 346\TacoTucan\Library\obj\Debug\Library.csproj.AssemblyReference.cache
+C:\csSchoolWork\ciss 346\TacoTucan\Library\obj\Debug\Library.csproj.CoreCompileInputs.cache
+C:\csSchoolWork\ciss 346\TacoTucan\Library\obj\Debug\Library.dll
+C:\csSchoolWork\ciss 346\TacoTucan\Library\obj\Debug\Library.pdb
+C:\csSchoolWork\ciss 346\TacoTucan\Library\bin\Debug\Library.dll
+C:\csSchoolWork\ciss 346\TacoTucan\Library\bin\Debug\Library.pdb

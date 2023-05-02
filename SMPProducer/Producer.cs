@@ -3,7 +3,7 @@ using System.IO;
 using System.Text;
 using System.Windows.Forms;
 using SMP_Library;
-
+using Sender;
 
 namespace SMPProducer
 {
@@ -38,32 +38,9 @@ namespace SMPProducer
         {
 
         }
-        private void writeMessageToFile(SmpPacket packet, FileStream file)
-        {
-            byte[] messageTypeOut = new UTF8Encoding(true).GetBytes(packet.MessageType);
-            byte[] priorityOut = new UTF8Encoding(true).GetBytes(packet.Priority);
-            byte[] timeStampOut = new UTF8Encoding(true).GetBytes(packet.DateTime);
-            byte[] messageOut = new UTF8Encoding(true).GetBytes(packet.Message);
-            byte[] newLineOut = new UTF8Encoding(true).GetBytes("\n");
-            file.Write(messageTypeOut, 0, messageTypeOut.Length);
-            file.Flush();
-            file.Write(newLineOut, 0, newLineOut.Length);
-            file.Flush();
-            file.Write(priorityOut, 0, priorityOut.Length);
-            file.Flush();
-            file.Write(timeStampOut, 0, timeStampOut.Length);
-            file.Flush();
-            file.Write(messageOut, 0, messageOut.Length);
-            file.Flush();
-            file.Write(newLineOut, 0, newLineOut.Length);
-            file.Flush();
-            file.Write(newLineOut, 0, newLineOut.Length);
-            file.Flush();
-            
-        }
+        
         private void SendMessageButton_Click(object sender, EventArgs e)
         {
-            // TODO
             
             FileStream file;
             String path = @"../../../Messages.txt";
@@ -114,7 +91,12 @@ namespace SMPProducer
                     {
                         String timeStamp = "\n" + date.Month + "/" + date.Day + "/" + date.Year + " " + time.ToString(@"hh\:mm\:ss") + "\n";
                         SmpPacket packet = new SmpPacket("PutMessage", timeStamp, priority, MessageContentTextBox.Text);
-                        writeMessageToFile(packet, file);
+
+                        //TODO
+                        //try catch here
+                        Client.SendMessage(ServerIPAddressTextBox.Text, Int32.Parse(ApplicationPortNumberTextBox.Text), packet);
+
+
                         ProducerStatusBar.Text = "Message sent.";
 
                     }
@@ -126,6 +108,7 @@ namespace SMPProducer
 
 
                     MessageContentTextBox.Text = String.Empty;
+                    
                     file.Close();
                 }
             }

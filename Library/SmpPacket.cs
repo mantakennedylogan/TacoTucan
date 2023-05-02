@@ -1,4 +1,8 @@
-﻿namespace SMP_Library
+﻿using System.IO;
+using System.Runtime.Serialization.Formatters.Binary;
+using System;
+
+namespace SMP_Library
 {
     public class SmpPacket
     {
@@ -14,5 +18,6 @@
             Priority = priority;
             Message = message;
         }
+        
     }
 }
