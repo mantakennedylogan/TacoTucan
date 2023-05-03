@@ -15,8 +15,7 @@ namespace smpPacketUtil
     {
         public static string packetToString(SmpPacket packet)
         {
-            return packet.MessageType + "\b" + packet.Priority + "\b" + packet.DateTime + "\b" + packet.Message;
-
+            return packet.MessageType + "\b" + packet.DateTime + "\b" + packet.Priority + "\b" + packet.Message;
         }
 
         public static SmpPacket StringToPacket(string str)

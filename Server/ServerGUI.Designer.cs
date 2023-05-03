@@ -228,7 +228,6 @@
             this.AllPriorityRadioButton.TabStop = true;
             this.AllPriorityRadioButton.Text = "All";
             this.AllPriorityRadioButton.UseVisualStyleBackColor = true;
-            this.AllPriorityRadioButton.CheckedChanged += new System.EventHandler(this.AllPriorityRadioButton_CheckedChanged);
             // 
             // MediumPriorityadioButton
             // 

@@ -94,7 +94,6 @@
             this.ServerIPAdressLabel.Size = new System.Drawing.Size(92, 13);
             this.ServerIPAdressLabel.TabIndex = 0;
             this.ServerIPAdressLabel.Text = "Server IP Address";
-            this.ServerIPAdressLabel.Click += new System.EventHandler(this.label1_Click);
             // 
             // MessageGroupBox
             // 
@@ -130,7 +129,6 @@
             this.MessageContentTextBox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.MessageContentTextBox.Size = new System.Drawing.Size(369, 143);
             this.MessageContentTextBox.TabIndex = 2;
-            this.MessageContentTextBox.TextChanged += new System.EventHandler(this.MessageContentTextBox_TextChanged);
             // 
             // MessageContentLabel
             // 
@@ -154,7 +152,6 @@
             this.PriorityGroupBox.TabIndex = 0;
             this.PriorityGroupBox.TabStop = false;
             this.PriorityGroupBox.Text = "Priority";
-            this.PriorityGroupBox.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // HighRadioButton
             // 
@@ -192,7 +189,6 @@
             this.LowRadioButton.TabStop = true;
             this.LowRadioButton.Text = "Low";
             this.LowRadioButton.UseVisualStyleBackColor = true;
-            this.LowRadioButton.CheckedChanged += new System.EventHandler(this.LowRadioButton_CheckedChanged);
             // 
             // ConsumerStatusBar
             // 
@@ -214,7 +210,6 @@
             this.Controls.Add(this.SettingsGroupBox);
             this.Name = "ConsumerGUI";
             this.Text = "SMP Client Consumer Version 1.0";
-            this.Load += new System.EventHandler(this.ConsumerGUI_Load);
             this.SettingsGroupBox.ResumeLayout(false);
             this.SettingsGroupBox.PerformLayout();
             this.MessageGroupBox.ResumeLayout(false);

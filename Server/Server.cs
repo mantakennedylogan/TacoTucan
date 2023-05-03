@@ -16,7 +16,6 @@ namespace Server
         public static void Start(object obj)
         {
             serverForm = obj as ServerGUI;
-
             server = new UdpClient(serverForm.port);
 
             try
@@ -24,12 +23,30 @@ namespace Server
                 while (true)
                 {
                     string message = ReceiveClientMessage(out IPEndPoint remoteIpEndPoint);
+                    string messageRequestType = message.Substring(0, 10);
 
-                    SmpPacket packet = SmpPacketUtil.StringToPacket(message);
-                    serverForm.writeMessageToFile(packet);
-                    //ProcessClientMessage(message);
+                    // PUT request
+                    if (String.Equals(messageRequestType, "PutMessage"))
+                    {
+                        SmpPacket packet = SmpPacketUtil.StringToPacket(message);
+                        serverForm.WriteMessageToFile(packet);
 
-                    SendStatusMessage("Server: Message recorded...", remoteIpEndPoint);
+                        string mesageReceivedconfirmation = "Server: Message recorded...";
+                        byte[] bytes = Encoding.ASCII.GetBytes(mesageReceivedconfirmation);
+                        
+                        server.Send(bytes, bytes.Length, remoteIpEndPoint);
+                    } 
+                    // GET request
+                    else
+                    {
+                        string priority = message.Substring(10);
+
+                        SmpPacket returnPacket = serverForm.GetMessageFromFile(priority);
+                        string smpPacketAsString = SmpPacketUtil.packetToString(returnPacket);
+                        byte[] bytes = Encoding.ASCII.GetBytes(smpPacketAsString);
+
+                        server.Send(bytes, bytes.Length, remoteIpEndPoint);
+                    }        
                 }
             }
             catch (Exception ex)
@@ -47,18 +64,6 @@ namespace Server
             string message = Encoding.ASCII.GetString(bytes, 0, bytes.Length);
 
             return message;
-        }
-
-        /*private static void ProcessClientMessage(string message)
-        {
-            serverForm.RecordClientMessage(message);
-        }*/
-
-        public static void SendStatusMessage(string statusMessage, IPEndPoint remoteIpEndPoint)
-        {
-            byte[] bytes = Encoding.ASCII.GetBytes(statusMessage);
-
-            server.Send(bytes, bytes.Length, remoteIpEndPoint);
         }
     }
 }

@@ -68,7 +68,6 @@
             this.ApplicationPortNumberTextBox.Name = "ApplicationPortNumberTextBox";
             this.ApplicationPortNumberTextBox.Size = new System.Drawing.Size(83, 20);
             this.ApplicationPortNumberTextBox.TabIndex = 3;
-            this.ApplicationPortNumberTextBox.TextChanged += new System.EventHandler(this.ApplicationPortNumberTextBox_TextChanged);
             // 
             // ApplicationPortNumberLabel
             // 
@@ -78,7 +77,6 @@
             this.ApplicationPortNumberLabel.Size = new System.Drawing.Size(121, 13);
             this.ApplicationPortNumberLabel.TabIndex = 2;
             this.ApplicationPortNumberLabel.Text = "Application Port Number";
-            this.ApplicationPortNumberLabel.Click += new System.EventHandler(this.label2_Click);
             // 
             // ServerIPAddressTextBox
             // 
@@ -95,7 +93,6 @@
             this.ServerIPAddressLabel.Size = new System.Drawing.Size(92, 13);
             this.ServerIPAddressLabel.TabIndex = 0;
             this.ServerIPAddressLabel.Text = "Server IP Address";
-            this.ServerIPAddressLabel.Click += new System.EventHandler(this.label1_Click);
             // 
             // ServerResponseLabel
             // 
@@ -144,7 +141,6 @@
             this.MessageContentLabel.Size = new System.Drawing.Size(90, 13);
             this.MessageContentLabel.TabIndex = 5;
             this.MessageContentLabel.Text = "Message Content";
-            this.MessageContentLabel.Click += new System.EventHandler(this.MessageContentLabel_Click);
             // 
             // MessageContentTextBox
             // 
@@ -186,7 +182,6 @@
             this.MediumRadioButton.TabIndex = 1;
             this.MediumRadioButton.Text = "Medium";
             this.MediumRadioButton.UseVisualStyleBackColor = true;
-            this.MediumRadioButton.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
             // 
             // LowRadioButton
             // 
@@ -199,7 +194,6 @@
             this.LowRadioButton.TabStop = true;
             this.LowRadioButton.Text = "Low";
             this.LowRadioButton.UseVisualStyleBackColor = true;
-            this.LowRadioButton.CheckedChanged += new System.EventHandler(this.LowRadioButton_CheckedChanged);
             // 
             // ProducerStatusBar
             // 

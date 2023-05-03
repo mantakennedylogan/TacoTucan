@@ -18,33 +18,156 @@ namespace Server
 {
     public partial class ServerGUI : Form
     {
-        public int port = 50444;
+        public int port;
         public ServerGUI()
         {
             InitializeComponent();
         }
 
-        public void writeMessageToFile(SmpPacket packet)//, FileStream file)
+        private void StartServerButton_Click(object sender, EventArgs e)
         {
+            try
+            {
+                ThreadPool.QueueUserWorkItem(Server.Start, this);
+                ServerStatusTextBox.Text = "Server Started...";
+            }
+            catch (Exception)
+            {
+                ServerStatusTextBox.Text = "Server Start error...";
+            }
+        }
+
+        public void WriteMessageToFile(SmpPacket packet)
+        {
+            FileStream file = File.Open(@"..\..\..\Messages.txt", FileMode.Append);
             byte[] messageTypeOut = new UTF8Encoding(true).GetBytes(packet.MessageType);
             byte[] priorityOut = new UTF8Encoding(true).GetBytes(packet.Priority);
             byte[] timeStampOut = new UTF8Encoding(true).GetBytes(packet.DateTime);
             byte[] messageOut = new UTF8Encoding(true).GetBytes(packet.Message);
             byte[] newLineOut = new UTF8Encoding(true).GetBytes("\n");
-            MessageTextBox.Text = packet.Message;
-            MessageTextBox.Text = "thing";
-            /*file.Write(messageTypeOut, 0, messageTypeOut.Length);
 
+            file.Write(messageTypeOut, 0, messageTypeOut.Length);
             file.Write(newLineOut, 0, newLineOut.Length);
             file.Write(priorityOut, 0, priorityOut.Length);
             file.Write(timeStampOut, 0, timeStampOut.Length);
             file.Write(messageOut, 0, messageOut.Length);
             file.Write(newLineOut, 0, newLineOut.Length);
             file.Write(newLineOut, 0, newLineOut.Length);
-            file.Flush();*/
-
+            file.Flush();
+            file.Close();
         }
-        private string getPriorityLevel()
+
+        public SmpPacket GetMessageFromFile(string priority)
+        {
+            string path = @"..\..\..\Messages.txt";
+
+            string text = "";
+            Boolean readLine = false;
+            int linesread = 0;
+            string[] fileStrings = File.ReadAllLines(path);
+            for (int i = 0; i < fileStrings.Length; i++)
+            {
+                string line = fileStrings[i];
+
+                if (readLine == true)
+                {
+                    linesread += 1;
+                    text += line + "\r\n";
+                    fileStrings = Remove_from_array(fileStrings, i);
+                    i--;
+                    if (linesread == 2)
+                    {
+                        fileStrings = Remove_from_array(fileStrings, i + 1);
+                        break;
+                    }
+                }
+
+                if (string.Equals(priority, "PRIORITY_LOW"))
+                {
+                    if (string.Equals(line, "PRIORITY_LOW"))
+                    {
+                        readLine = true;
+                        fileStrings = Remove_from_array(fileStrings, i);
+                        i--;
+                        fileStrings = Remove_from_array(fileStrings, i);
+                        i--;
+                    }
+                }
+
+                if (string.Equals(priority, "PRIORITY_MEDIUM"))
+                {
+                    if (string.Equals(line, "PRIORITY_MEDIUM"))
+                    {
+                        readLine = true;
+                        fileStrings = Remove_from_array(fileStrings, i);
+                        i--;
+                        fileStrings = Remove_from_array(fileStrings, i);
+                        i--;
+                    }
+                }
+
+                if (string.Equals(priority, "PRIORITY_HIGH"))
+                {
+                    if (string.Equals(line, "PRIORITY_HIGH"))
+                    {
+                        readLine = true;
+                        fileStrings = Remove_from_array(fileStrings, i);
+                        i--;
+                        fileStrings = Remove_from_array(fileStrings, i);
+                        i--;
+                    }
+                }
+
+            }
+
+            File.WriteAllLines(path, fileStrings);
+
+            string[] packetItems = text.Split('\n');
+            SmpPacket returnPacket;
+
+            if (text == "")
+            {
+                returnPacket = new SmpPacket("Getmessage", packetItems[0], priority, "");
+            } 
+            else
+            {
+                returnPacket = new SmpPacket("Getmessage", packetItems[0], priority, packetItems[1]);
+            }
+
+            return returnPacket;
+        }
+
+        private string[] Remove_from_array(string[] array, int index)
+        {
+            string[] newarray;
+            if (array.Length - 1 <= 0)
+            {
+                newarray = new string[0];
+                return newarray;
+            }
+
+            newarray = new string[array.Length - 1];
+            Boolean passedIndex = false;
+            for (int i = 0; i < array.Length; i++)
+            {
+                if (i == index)
+                {
+                    passedIndex = true;
+                }
+
+                if (passedIndex && i != index)
+                {
+                    newarray[i - 1] = array[i];
+                }
+                else if (i != index)
+                {
+                    newarray[i] = array[i];
+                }
+            }
+            return newarray;
+        }
+
+        private string GetPriorityLevel()
         {
             if (LowPriorityRadioButton.Checked) {
                 return "PRIORITY_LOW";
@@ -66,7 +189,7 @@ namespace Server
             string text = "";
             Boolean readLine = false;
             int messageLine = 0;
-            string priority = getPriorityLevel();
+            string priority = GetPriorityLevel();
 
             foreach (string line in File.ReadAllLines(path))
             {
@@ -85,7 +208,6 @@ namespace Server
                     messageLine++;
                     if (messageLine == 4)
                     {
-                        text += "\r\n";
                         messageLine = 0;
                         readLine = false;
                     }
@@ -104,36 +226,18 @@ namespace Server
             if(MessageTextBox.Text == String.Empty)
             {
                 ServerStatusTextBox.Text = "No messages with selected priority";
+                return;
             }
             else
             {
                 ServerStatusTextBox.Text = "Done.";
+                return;
             }
-        }
-
-        
-
-        private void AllPriorityRadioButton_CheckedChanged(object sender, EventArgs e)
-        {
-
         }
 
         private void PortNumberTextBox_TextChanged(object sender, EventArgs e)
         {
             port = Int32.Parse(PortNumberTextBox.Text);
-        }
-
-        private void StartServerButton_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                ThreadPool.QueueUserWorkItem(Server.Start, this);
-                ServerStatusTextBox.Text = "Server Started...";
-            }
-            catch (Exception)
-            {
-                ServerStatusTextBox.Text = "Server Start error...";
-            }
         }
     }
 }

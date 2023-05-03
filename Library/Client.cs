@@ -8,30 +8,34 @@ namespace Sender
 {
     public class Client
     {
-        public static void SendMessage(string serverIpAddress, int port, SmpPacket message)
+        public static string SendPutMessage(string serverIpAddress, int port, SmpPacket message)
         {
             IPEndPoint serverEndPoint = new IPEndPoint(IPAddress.Parse(serverIpAddress), port);
-
-            UdpClient client = SendServerMessage(message, serverEndPoint);
-
-            //string statusMessage = ReceiveStatusMessage(client);
-
-            //ProcessServerStatusMessage(statusMessage);
-        }
-
-        private static UdpClient SendServerMessage(SmpPacket message, IPEndPoint serverEndPoint)
-        {
             UdpClient client = new UdpClient();
-
             client.Connect(serverEndPoint);
 
             string strmesg = SmpPacketUtil.packetToString(message);
-
             byte[] sendbuf = Encoding.ASCII.GetBytes(strmesg);
-            
+
             client.Send(sendbuf, sendbuf.Length);
 
-            return client;
+            string response = ReceiveStatusMessage(client);
+            return response;
+        }
+
+        public static string SendGetRequest(string serverIpAddress, int port, string priority)
+        {
+            IPEndPoint serverEndPoint = new IPEndPoint(IPAddress.Parse(serverIpAddress), port);
+            UdpClient client = new UdpClient();
+            client.Connect(serverEndPoint);
+
+            string strmesg = "GetMessage" + priority;
+            byte[] sendbuf = Encoding.ASCII.GetBytes(strmesg);
+
+            client.Send(sendbuf, sendbuf.Length);
+
+            string response = ReceiveStatusMessage(client);
+            return response;
         }
 
         private static string ReceiveStatusMessage(UdpClient client)
@@ -45,9 +49,5 @@ namespace Sender
             return statusMessage;
         }
 
-        private static void ProcessServerStatusMessage(string serverResponse)
-        {
-            //form.RecordServerResponse(serverResponse);
-        }
     }
 }
