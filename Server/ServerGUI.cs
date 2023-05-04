@@ -13,6 +13,8 @@ using RadioButton = System.Windows.Forms.RadioButton;
 using SMP_Library;
 using Server;
 using System.Threading;
+using System.Net.Sockets;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace Server
 {
@@ -29,6 +31,7 @@ namespace Server
             try
             {
                 ThreadPool.QueueUserWorkItem(Server.Start, this);
+                port = Int32.Parse(PortNumberTextBox.Text);
                 ServerStatusTextBox.Text = "Server Started...";
             }
             catch (Exception)
@@ -55,6 +58,9 @@ namespace Server
             file.Write(newLineOut, 0, newLineOut.Length);
             file.Flush();
             file.Close();
+
+            UpdateLastReceivedMessageType("PUT");
+            UpdateLastReceivedMessagePriority(packet.Priority);
         }
 
         public SmpPacket GetMessageFromFile(string priority)
@@ -134,6 +140,8 @@ namespace Server
                 returnPacket = new SmpPacket("Getmessage", packetItems[0], priority, packetItems[1]);
             }
 
+            UpdateLastReceivedMessageType("GET");
+            UpdateLastReceivedMessagePriority(priority);
             return returnPacket;
         }
 
@@ -239,5 +247,34 @@ namespace Server
         {
             port = Int32.Parse(PortNumberTextBox.Text);
         }
+
+        private delegate void SafeCallDelegate(string type);
+        private void UpdateLastReceivedMessageType(string type)
+        {
+            if (MessageTypeTextBox.InvokeRequired)
+            {
+                var d = new SafeCallDelegate(UpdateLastReceivedMessageType);
+                MessageTypeTextBox.Invoke(d, new object[] { type });
+            }
+            else
+            {
+                MessageTypeTextBox.Text = type;
+            }
+        }
+
+        private delegate void SafeCallDelegate2(string type);
+        private void UpdateLastReceivedMessagePriority(string priority)
+        {
+            if (MessagePriorityTextbox.InvokeRequired)
+            {
+                var d = new SafeCallDelegate2(UpdateLastReceivedMessagePriority);
+                MessagePriorityTextbox.Invoke(d, new object[] { priority });
+            }
+            else
+            {
+                MessagePriorityTextbox.Text = priority;
+            }
+        }
+
     }
 }

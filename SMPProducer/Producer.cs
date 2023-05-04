@@ -56,7 +56,7 @@ namespace SMPProducer
                     try
                     {
                         string response = Client.SendPutMessage(ServerIPAddressTextBox.Text, Int32.Parse(ApplicationPortNumberTextBox.Text), packet);
-                        /*ServerResponseTextBox.Text = response;*/
+                        ServerResponseTextBox.Text = response;
                         ProducerStatusBar.Text = "Message sent.";
                     } 
                     catch(Exception)

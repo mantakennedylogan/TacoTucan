@@ -28,10 +28,10 @@ namespace Server
                     // PUT request
                     if (String.Equals(messageRequestType, "PutMessage"))
                     {
-                        SmpPacket packet = SmpPacketUtil.StringToPacket(message);
+                        SmpPacket packet = SmpPacketUtil.StringToPacket(message);                    
                         serverForm.WriteMessageToFile(packet);
 
-                        string mesageReceivedconfirmation = "Server: Message recorded...";
+                        string mesageReceivedconfirmation = "Message recorded: " + DateTime.Now.ToString("M/dd/yyyy HH:mm:ss");
                         byte[] bytes = Encoding.ASCII.GetBytes(mesageReceivedconfirmation);
                         
                         server.Send(bytes, bytes.Length, remoteIpEndPoint);

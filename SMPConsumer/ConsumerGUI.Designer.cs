@@ -53,45 +53,53 @@
             this.SettingsGroupBox.Controls.Add(this.ApplicationPortNumberLabel);
             this.SettingsGroupBox.Controls.Add(this.ServerIPAddressTextBox);
             this.SettingsGroupBox.Controls.Add(this.ServerIPAdressLabel);
-            this.SettingsGroupBox.Location = new System.Drawing.Point(13, 12);
+            this.SettingsGroupBox.Location = new System.Drawing.Point(20, 18);
+            this.SettingsGroupBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.SettingsGroupBox.Name = "SettingsGroupBox";
-            this.SettingsGroupBox.Size = new System.Drawing.Size(509, 65);
+            this.SettingsGroupBox.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.SettingsGroupBox.Size = new System.Drawing.Size(764, 100);
             this.SettingsGroupBox.TabIndex = 0;
             this.SettingsGroupBox.TabStop = false;
             this.SettingsGroupBox.Text = "Settings";
             // 
             // ApplicationPortNumberTextBox
             // 
-            this.ApplicationPortNumberTextBox.Location = new System.Drawing.Point(394, 24);
+            this.ApplicationPortNumberTextBox.Location = new System.Drawing.Point(591, 37);
+            this.ApplicationPortNumberTextBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.ApplicationPortNumberTextBox.Name = "ApplicationPortNumberTextBox";
-            this.ApplicationPortNumberTextBox.Size = new System.Drawing.Size(109, 20);
+            this.ApplicationPortNumberTextBox.Size = new System.Drawing.Size(162, 26);
             this.ApplicationPortNumberTextBox.TabIndex = 3;
+            this.ApplicationPortNumberTextBox.Text = "50444";
             this.ApplicationPortNumberTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // ApplicationPortNumberLabel
             // 
             this.ApplicationPortNumberLabel.AutoSize = true;
-            this.ApplicationPortNumberLabel.Location = new System.Drawing.Point(267, 27);
+            this.ApplicationPortNumberLabel.Location = new System.Drawing.Point(400, 42);
+            this.ApplicationPortNumberLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.ApplicationPortNumberLabel.Name = "ApplicationPortNumberLabel";
-            this.ApplicationPortNumberLabel.Size = new System.Drawing.Size(121, 13);
+            this.ApplicationPortNumberLabel.Size = new System.Drawing.Size(180, 20);
             this.ApplicationPortNumberLabel.TabIndex = 2;
             this.ApplicationPortNumberLabel.Text = "Application Port Number";
             // 
             // ServerIPAddressTextBox
             // 
             this.ServerIPAddressTextBox.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.ServerIPAddressTextBox.Location = new System.Drawing.Point(104, 24);
+            this.ServerIPAddressTextBox.Location = new System.Drawing.Point(156, 37);
+            this.ServerIPAddressTextBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.ServerIPAddressTextBox.Name = "ServerIPAddressTextBox";
-            this.ServerIPAddressTextBox.Size = new System.Drawing.Size(157, 20);
+            this.ServerIPAddressTextBox.Size = new System.Drawing.Size(234, 26);
             this.ServerIPAddressTextBox.TabIndex = 1;
+            this.ServerIPAddressTextBox.Text = "127.0.0.1";
             this.ServerIPAddressTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // ServerIPAdressLabel
             // 
             this.ServerIPAdressLabel.AutoSize = true;
-            this.ServerIPAdressLabel.Location = new System.Drawing.Point(6, 27);
+            this.ServerIPAdressLabel.Location = new System.Drawing.Point(9, 42);
+            this.ServerIPAdressLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.ServerIPAdressLabel.Name = "ServerIPAdressLabel";
-            this.ServerIPAdressLabel.Size = new System.Drawing.Size(92, 13);
+            this.ServerIPAdressLabel.Size = new System.Drawing.Size(137, 20);
             this.ServerIPAdressLabel.TabIndex = 0;
             this.ServerIPAdressLabel.Text = "Server IP Address";
             // 
@@ -101,18 +109,21 @@
             this.MessageGroupBox.Controls.Add(this.MessageContentTextBox);
             this.MessageGroupBox.Controls.Add(this.MessageContentLabel);
             this.MessageGroupBox.Controls.Add(this.PriorityGroupBox);
-            this.MessageGroupBox.Location = new System.Drawing.Point(12, 83);
+            this.MessageGroupBox.Location = new System.Drawing.Point(18, 128);
+            this.MessageGroupBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.MessageGroupBox.Name = "MessageGroupBox";
-            this.MessageGroupBox.Size = new System.Drawing.Size(510, 221);
+            this.MessageGroupBox.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.MessageGroupBox.Size = new System.Drawing.Size(765, 340);
             this.MessageGroupBox.TabIndex = 1;
             this.MessageGroupBox.TabStop = false;
             this.MessageGroupBox.Text = "Message";
             // 
             // GetMessageButton
             // 
-            this.GetMessageButton.Location = new System.Drawing.Point(126, 185);
+            this.GetMessageButton.Location = new System.Drawing.Point(189, 285);
+            this.GetMessageButton.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.GetMessageButton.Name = "GetMessageButton";
-            this.GetMessageButton.Size = new System.Drawing.Size(369, 30);
+            this.GetMessageButton.Size = new System.Drawing.Size(554, 46);
             this.GetMessageButton.TabIndex = 3;
             this.GetMessageButton.Text = "Get Message";
             this.GetMessageButton.UseVisualStyleBackColor = true;
@@ -121,22 +132,22 @@
             // MessageContentTextBox
             // 
             this.MessageContentTextBox.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.MessageContentTextBox.Location = new System.Drawing.Point(126, 36);
-            this.MessageContentTextBox.Margin = new System.Windows.Forms.Padding(3, 3, 12, 3);
+            this.MessageContentTextBox.Location = new System.Drawing.Point(189, 55);
+            this.MessageContentTextBox.Margin = new System.Windows.Forms.Padding(4, 5, 18, 5);
             this.MessageContentTextBox.Multiline = true;
             this.MessageContentTextBox.Name = "MessageContentTextBox";
             this.MessageContentTextBox.ReadOnly = true;
             this.MessageContentTextBox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.MessageContentTextBox.Size = new System.Drawing.Size(369, 143);
+            this.MessageContentTextBox.Size = new System.Drawing.Size(552, 218);
             this.MessageContentTextBox.TabIndex = 2;
             // 
             // MessageContentLabel
             // 
             this.MessageContentLabel.AutoSize = true;
-            this.MessageContentLabel.Location = new System.Drawing.Point(123, 19);
-            this.MessageContentLabel.Margin = new System.Windows.Forms.Padding(12, 0, 3, 0);
+            this.MessageContentLabel.Location = new System.Drawing.Point(184, 29);
+            this.MessageContentLabel.Margin = new System.Windows.Forms.Padding(18, 0, 4, 0);
             this.MessageContentLabel.Name = "MessageContentLabel";
-            this.MessageContentLabel.Size = new System.Drawing.Size(90, 13);
+            this.MessageContentLabel.Size = new System.Drawing.Size(135, 20);
             this.MessageContentLabel.TabIndex = 1;
             this.MessageContentLabel.Text = "Message Content";
             // 
@@ -145,10 +156,11 @@
             this.PriorityGroupBox.Controls.Add(this.HighRadioButton);
             this.PriorityGroupBox.Controls.Add(this.MediumRadioButton);
             this.PriorityGroupBox.Controls.Add(this.LowRadioButton);
-            this.PriorityGroupBox.Location = new System.Drawing.Point(15, 19);
-            this.PriorityGroupBox.Margin = new System.Windows.Forms.Padding(12, 3, 3, 3);
+            this.PriorityGroupBox.Location = new System.Drawing.Point(22, 29);
+            this.PriorityGroupBox.Margin = new System.Windows.Forms.Padding(18, 5, 4, 5);
             this.PriorityGroupBox.Name = "PriorityGroupBox";
-            this.PriorityGroupBox.Size = new System.Drawing.Size(93, 196);
+            this.PriorityGroupBox.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.PriorityGroupBox.Size = new System.Drawing.Size(140, 302);
             this.PriorityGroupBox.TabIndex = 0;
             this.PriorityGroupBox.TabStop = false;
             this.PriorityGroupBox.Text = "Priority";
@@ -157,10 +169,10 @@
             // 
             this.HighRadioButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.HighRadioButton.AutoSize = true;
-            this.HighRadioButton.Location = new System.Drawing.Point(9, 142);
-            this.HighRadioButton.Margin = new System.Windows.Forms.Padding(6, 12, 6, 20);
+            this.HighRadioButton.Location = new System.Drawing.Point(14, 221);
+            this.HighRadioButton.Margin = new System.Windows.Forms.Padding(9, 18, 9, 31);
             this.HighRadioButton.Name = "HighRadioButton";
-            this.HighRadioButton.Size = new System.Drawing.Size(47, 17);
+            this.HighRadioButton.Size = new System.Drawing.Size(67, 24);
             this.HighRadioButton.TabIndex = 2;
             this.HighRadioButton.Text = "High";
             this.HighRadioButton.UseVisualStyleBackColor = true;
@@ -169,10 +181,10 @@
             // 
             this.MediumRadioButton.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.MediumRadioButton.AutoSize = true;
-            this.MediumRadioButton.Location = new System.Drawing.Point(9, 94);
-            this.MediumRadioButton.Margin = new System.Windows.Forms.Padding(6, 12, 6, 12);
+            this.MediumRadioButton.Location = new System.Drawing.Point(14, 145);
+            this.MediumRadioButton.Margin = new System.Windows.Forms.Padding(9, 18, 9, 18);
             this.MediumRadioButton.Name = "MediumRadioButton";
-            this.MediumRadioButton.Size = new System.Drawing.Size(62, 17);
+            this.MediumRadioButton.Size = new System.Drawing.Size(90, 24);
             this.MediumRadioButton.TabIndex = 1;
             this.MediumRadioButton.Text = "Medium";
             this.MediumRadioButton.UseVisualStyleBackColor = true;
@@ -181,10 +193,10 @@
             // 
             this.LowRadioButton.AutoSize = true;
             this.LowRadioButton.Checked = true;
-            this.LowRadioButton.Location = new System.Drawing.Point(9, 43);
-            this.LowRadioButton.Margin = new System.Windows.Forms.Padding(6, 20, 6, 12);
+            this.LowRadioButton.Location = new System.Drawing.Point(14, 66);
+            this.LowRadioButton.Margin = new System.Windows.Forms.Padding(9, 31, 9, 18);
             this.LowRadioButton.Name = "LowRadioButton";
-            this.LowRadioButton.Size = new System.Drawing.Size(45, 17);
+            this.LowRadioButton.Size = new System.Drawing.Size(63, 24);
             this.LowRadioButton.TabIndex = 0;
             this.LowRadioButton.TabStop = true;
             this.LowRadioButton.Text = "Low";
@@ -194,20 +206,22 @@
             // 
             this.ConsumerStatusBar.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.ConsumerStatusBar.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.ConsumerStatusBar.Location = new System.Drawing.Point(0, 311);
+            this.ConsumerStatusBar.Location = new System.Drawing.Point(0, 483);
+            this.ConsumerStatusBar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.ConsumerStatusBar.Name = "ConsumerStatusBar";
             this.ConsumerStatusBar.ReadOnly = true;
-            this.ConsumerStatusBar.Size = new System.Drawing.Size(534, 20);
+            this.ConsumerStatusBar.Size = new System.Drawing.Size(801, 26);
             this.ConsumerStatusBar.TabIndex = 2;
             // 
             // ConsumerGUI
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(534, 331);
+            this.ClientSize = new System.Drawing.Size(801, 509);
             this.Controls.Add(this.ConsumerStatusBar);
             this.Controls.Add(this.MessageGroupBox);
             this.Controls.Add(this.SettingsGroupBox);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "ConsumerGUI";
             this.Text = "SMP Client Consumer Version 1.0";
             this.SettingsGroupBox.ResumeLayout(false);
