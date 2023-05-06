@@ -4,6 +4,7 @@ using smpPacketUtil;
 using System;
 using System.Windows.Forms;
 
+
 namespace SMPConsumer
 {
     public partial class ConsumerGUI : Form
@@ -48,9 +49,17 @@ namespace SMPConsumer
                     ConsumerStatusBar.Text = "Please enter a valid IP address and port number";
                 } else
                 {
-                    string response = Client.SendGetRequest(ServerIPAddressTextBox.Text, Int32.Parse(ApplicationPortNumberTextBox.Text), priority);
-                    SmpPacket packet = SmpPacketUtil.StringToPacket(response);
-                    DisplaySmpPacket(SmpPacketUtil.StringToPacket(response));
+                    try
+                    {
+                        string response = Client.SendGetRequest(ServerIPAddressTextBox.Text, Int32.Parse(ApplicationPortNumberTextBox.Text), priority);
+                        SmpPacket packet = SmpPacketUtil.StringToPacket(response);
+                        DisplaySmpPacket(SmpPacketUtil.StringToPacket(response));
+                    }
+                    catch (Exception)
+                    {
+                        ConsumerStatusBar.Text = "Please enter a valid IP address and port number";
+                    }
+
                 }
             }
 

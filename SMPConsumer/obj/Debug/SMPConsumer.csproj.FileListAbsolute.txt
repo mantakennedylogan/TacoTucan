@@ -64,3 +64,17 @@ C:\csSchoolWork\ciss 346\TacoTucan\SMPConsumer\obj\Debug\SMPConsumer.pdb
 C:\csSchoolWork\ciss 346\TacoTucan\SMPConsumer\bin\Debug\SMPConsumer.exe.config
 C:\csSchoolWork\ciss 346\TacoTucan\SMPConsumer\bin\Debug\SMPConsumer.exe
 C:\csSchoolWork\ciss 346\TacoTucan\SMPConsumer\bin\Debug\SMPConsumer.pdb
+C:\Users\atsoc\Desktop\Spring\TacoTucan\TacoTucan\SMPConsumer\obj\Debug\SMPConsumer.csproj.AssemblyReference.cache
+C:\Users\atsoc\Desktop\Spring\TacoTucan\TacoTucan\SMPConsumer\obj\Debug\SMPConsumer.csproj.SuggestedBindingRedirects.cache
+C:\Users\atsoc\Desktop\Spring\TacoTucan\TacoTucan\SMPConsumer\obj\Debug\SMPConsumer.ConsumerGUI.resources
+C:\Users\atsoc\Desktop\Spring\TacoTucan\TacoTucan\SMPConsumer\obj\Debug\SMPConsumer.Properties.Resources.resources
+C:\Users\atsoc\Desktop\Spring\TacoTucan\TacoTucan\SMPConsumer\obj\Debug\SMPConsumer.csproj.GenerateResource.cache
+C:\Users\atsoc\Desktop\Spring\TacoTucan\TacoTucan\SMPConsumer\obj\Debug\SMPConsumer.csproj.CoreCompileInputs.cache
+C:\Users\atsoc\Desktop\Spring\TacoTucan\TacoTucan\SMPConsumer\obj\Debug\SMPConsumer.exe
+C:\Users\atsoc\Desktop\Spring\TacoTucan\TacoTucan\SMPConsumer\obj\Debug\SMPConsumer.pdb
+C:\Users\atsoc\Desktop\Spring\TacoTucan\TacoTucan\SMPConsumer\bin\Debug\SMPConsumer.exe.config
+C:\Users\atsoc\Desktop\Spring\TacoTucan\TacoTucan\SMPConsumer\bin\Debug\SMPConsumer.exe
+C:\Users\atsoc\Desktop\Spring\TacoTucan\TacoTucan\SMPConsumer\bin\Debug\SMPConsumer.pdb
+C:\Users\atsoc\Desktop\Spring\TacoTucan\TacoTucan\SMPConsumer\bin\Debug\Library.dll
+C:\Users\atsoc\Desktop\Spring\TacoTucan\TacoTucan\SMPConsumer\bin\Debug\Library.pdb
+C:\Users\atsoc\Desktop\Spring\TacoTucan\TacoTucan\SMPConsumer\obj\Debug\SMPConsumer.csproj.CopyComplete
