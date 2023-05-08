@@ -16,7 +16,16 @@ namespace Server
         public static void Start(object obj)
         {
             serverForm = obj as ServerGUI;
-            server = new UdpClient(serverForm.port);
+            try
+            {
+                server = new UdpClient(serverForm.port);
+
+            }
+
+            catch (SocketException)
+            {
+                return;
+            }
 
             try
             {

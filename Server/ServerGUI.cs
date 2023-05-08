@@ -34,12 +34,16 @@ namespace Server
                 port = Int32.Parse(PortNumberTextBox.Text);
                 ServerStatusTextBox.Text = "Server Started...";
             }
+            catch (SocketException)
+            {
+                ServerStatusTextBox.Text = "Server already started.";
+                
+            }
             catch (Exception)
             {
                 ServerStatusTextBox.Text = "Server Start error...";
             }
         }
-
         public void WriteMessageToFile(SmpPacket packet)
         {
             FileStream file = File.Open(@"..\..\..\Messages.txt", FileMode.Append);
@@ -275,6 +279,8 @@ namespace Server
                 MessagePriorityTextbox.Text = priority;
             }
         }
+
+        
 
     }
 }
