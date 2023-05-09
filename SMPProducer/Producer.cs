@@ -22,19 +22,16 @@ namespace SMPProducer
             bool check = false;
             if (LowRadioButton.Checked)
             {
-                LowRadioButton.Checked = false;
                 check = true;
                 priority = "PRIORITY_LOW";
             }
             else if (MediumRadioButton.Checked)
             {
-                MediumRadioButton.Checked = false; 
                 check = true;
                 priority = "PRIORITY_MEDIUM";
             }
             else if (HighRadioButton.Checked)
             {
-                HighRadioButton.Checked = false;    
                 check = true;
                 priority = "PRIORITY_HIGH";
             }
