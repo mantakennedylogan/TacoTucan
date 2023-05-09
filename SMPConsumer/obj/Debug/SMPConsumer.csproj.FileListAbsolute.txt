@@ -67,17 +67,3 @@ C:\Users\atsoc\Desktop\Spring\TacoTucan\TacoTucan\SMPConsumer\bin\Debug\SMPConsu
 C:\Users\atsoc\Desktop\Spring\TacoTucan\TacoTucan\SMPConsumer\bin\Debug\Library.dll
 C:\Users\atsoc\Desktop\Spring\TacoTucan\TacoTucan\SMPConsumer\bin\Debug\Library.pdb
 C:\Users\atsoc\Desktop\Spring\TacoTucan\TacoTucan\SMPConsumer\obj\Debug\SMPConsumer.csproj.CopyComplete
-D:\Spring 2023\CISS 346\TacoTucan\SMPConsumer\bin\Debug\SMPConsumer.exe.config
-D:\Spring 2023\CISS 346\TacoTucan\SMPConsumer\bin\Debug\SMPConsumer.exe
-D:\Spring 2023\CISS 346\TacoTucan\SMPConsumer\bin\Debug\SMPConsumer.pdb
-D:\Spring 2023\CISS 346\TacoTucan\SMPConsumer\bin\Debug\Library.dll
-D:\Spring 2023\CISS 346\TacoTucan\SMPConsumer\bin\Debug\Library.pdb
-D:\Spring 2023\CISS 346\TacoTucan\SMPConsumer\obj\Debug\SMPConsumer.csproj.AssemblyReference.cache
-D:\Spring 2023\CISS 346\TacoTucan\SMPConsumer\obj\Debug\SMPConsumer.csproj.SuggestedBindingRedirects.cache
-D:\Spring 2023\CISS 346\TacoTucan\SMPConsumer\obj\Debug\SMPConsumer.ConsumerGUI.resources
-D:\Spring 2023\CISS 346\TacoTucan\SMPConsumer\obj\Debug\SMPConsumer.Properties.Resources.resources
-D:\Spring 2023\CISS 346\TacoTucan\SMPConsumer\obj\Debug\SMPConsumer.csproj.GenerateResource.cache
-D:\Spring 2023\CISS 346\TacoTucan\SMPConsumer\obj\Debug\SMPConsumer.csproj.CoreCompileInputs.cache
-D:\Spring 2023\CISS 346\TacoTucan\SMPConsumer\obj\Debug\SMPConsumer.csproj.CopyComplete
-D:\Spring 2023\CISS 346\TacoTucan\SMPConsumer\obj\Debug\SMPConsumer.exe
-D:\Spring 2023\CISS 346\TacoTucan\SMPConsumer\obj\Debug\SMPConsumer.pdb
