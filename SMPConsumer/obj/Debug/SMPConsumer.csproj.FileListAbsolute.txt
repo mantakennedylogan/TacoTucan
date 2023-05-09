@@ -1,14 +1,3 @@
-D:\Spring 2023\CISS 346\TacoTucan\SMPConsumer\bin\Debug\SMPConsumer.exe.config
-D:\Spring 2023\CISS 346\TacoTucan\SMPConsumer\bin\Debug\SMPConsumer.exe
-D:\Spring 2023\CISS 346\TacoTucan\SMPConsumer\bin\Debug\SMPConsumer.pdb
-D:\Spring 2023\CISS 346\TacoTucan\SMPConsumer\obj\Debug\SMPConsumer.csproj.AssemblyReference.cache
-D:\Spring 2023\CISS 346\TacoTucan\SMPConsumer\obj\Debug\SMPConsumer.csproj.SuggestedBindingRedirects.cache
-D:\Spring 2023\CISS 346\TacoTucan\SMPConsumer\obj\Debug\SMPConsumer.ConsumerGUI.resources
-D:\Spring 2023\CISS 346\TacoTucan\SMPConsumer\obj\Debug\SMPConsumer.Properties.Resources.resources
-D:\Spring 2023\CISS 346\TacoTucan\SMPConsumer\obj\Debug\SMPConsumer.csproj.GenerateResource.cache
-D:\Spring 2023\CISS 346\TacoTucan\SMPConsumer\obj\Debug\SMPConsumer.csproj.CoreCompileInputs.cache
-D:\Spring 2023\CISS 346\TacoTucan\SMPConsumer\obj\Debug\SMPConsumer.exe
-D:\Spring 2023\CISS 346\TacoTucan\SMPConsumer\obj\Debug\SMPConsumer.pdb
 E:\school\WWU\ciss 346\tacotucan\SMPConsumer\bin\Debug\SMPConsumer.exe.config
 E:\school\WWU\ciss 346\tacotucan\SMPConsumer\bin\Debug\SMPConsumer.exe
 E:\school\WWU\ciss 346\tacotucan\SMPConsumer\bin\Debug\SMPConsumer.pdb
