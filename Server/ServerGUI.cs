@@ -32,21 +32,15 @@ namespace Server
             {
                 ThreadPool.QueueUserWorkItem(Server.Start, this);
                 port = Int32.Parse(PortNumberTextBox.Text);
-                if(ServerStatusTextBox.Text == String.Empty)
-                {
-                    ServerStatusTextBox.Text = "Server Started...";
-
-                }
-                else
-                {
-                    ServerStatusTextBox.Text = "Server already started";
-
-                }
+                ServerStatusTextBox.Text = "Server Started...";
+                StartServerButton.Enabled = false;
             }
             catch (Exception)
             {
                 ServerStatusTextBox.Text = "Server Start error...";
             }
+
+
         }
         public void WriteMessageToFile(SmpPacket packet)
         {

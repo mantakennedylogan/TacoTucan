@@ -24,7 +24,6 @@ namespace Server
 
             catch (SocketException)
             {
-                
                 return;
             }
 

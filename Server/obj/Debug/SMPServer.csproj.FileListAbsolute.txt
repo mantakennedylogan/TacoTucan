@@ -34,3 +34,16 @@ C:\Users\atsoc\Desktop\Spring\TacoTucan\TacoTucan\Server\obj\Debug\SMPServer.csp
 C:\Users\atsoc\Desktop\Spring\TacoTucan\TacoTucan\Server\obj\Debug\SMPServer.csproj.CopyComplete
 C:\Users\atsoc\Desktop\Spring\TacoTucan\TacoTucan\Server\obj\Debug\Server.exe
 C:\Users\atsoc\Desktop\Spring\TacoTucan\TacoTucan\Server\obj\Debug\Server.pdb
+D:\Spring 2023\CISS 346\TacoTucan\Server\bin\Debug\Server.exe.config
+D:\Spring 2023\CISS 346\TacoTucan\Server\bin\Debug\Server.exe
+D:\Spring 2023\CISS 346\TacoTucan\Server\bin\Debug\Server.pdb
+D:\Spring 2023\CISS 346\TacoTucan\Server\bin\Debug\Library.dll
+D:\Spring 2023\CISS 346\TacoTucan\Server\bin\Debug\Library.pdb
+D:\Spring 2023\CISS 346\TacoTucan\Server\obj\Debug\SMPServer.csproj.AssemblyReference.cache
+D:\Spring 2023\CISS 346\TacoTucan\Server\obj\Debug\SMPServer.csproj.SuggestedBindingRedirects.cache
+D:\Spring 2023\CISS 346\TacoTucan\Server\obj\Debug\Server.ServerGUI.resources
+D:\Spring 2023\CISS 346\TacoTucan\Server\obj\Debug\SMPServer.csproj.GenerateResource.cache
+D:\Spring 2023\CISS 346\TacoTucan\Server\obj\Debug\SMPServer.csproj.CoreCompileInputs.cache
+D:\Spring 2023\CISS 346\TacoTucan\Server\obj\Debug\SMPServer.csproj.CopyComplete
+D:\Spring 2023\CISS 346\TacoTucan\Server\obj\Debug\Server.exe
+D:\Spring 2023\CISS 346\TacoTucan\Server\obj\Debug\Server.pdb
