@@ -233,9 +233,24 @@ namespace Server
             }
 
             MessageTextBox.Text = text;
-            if(MessageTextBox.Text == String.Empty)
+            if(MessageTextBox.Text == String.Empty && LowPriorityRadioButton.Checked)
             {
-                ServerStatusTextBox.Text = "No messages with selected priority";
+                ServerStatusTextBox.Text = "No messages with low priority.";
+                return;
+            }
+            else if (MessageTextBox.Text == String.Empty && MediumPriorityadioButton.Checked)
+            {
+                ServerStatusTextBox.Text = "No messages with medium priority.";
+                return;
+            }
+            else if (MessageTextBox.Text == String.Empty && HighPriorityRadioButton.Checked)
+            {
+                ServerStatusTextBox.Text = "No messages with high priority.";
+                return;
+            }
+            else if (MessageTextBox.Text == String.Empty && AllPriorityRadioButton.Checked)
+            {
+                ServerStatusTextBox.Text = "No messages.";
                 return;
             }
             else
