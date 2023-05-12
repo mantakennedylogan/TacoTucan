@@ -4,6 +4,7 @@ using System.Text;
 using System.Windows.Forms;
 using SMP_Library;
 using Sender;
+using CryptographyUtilities;
 
 namespace SMPProducer
 {
@@ -47,11 +48,12 @@ namespace SMPProducer
 
                 if (MessageContentTextBox.Text != String.Empty)
                 {
-                    String timeStamp = "\n" + date.Month + "/" + date.Day + "/" + date.Year + " " + time.ToString(@"hh\:mm\:ss") + "\n";
+                    String timeStamp = "\n"  + date.Month + "/" + date.Day + "/" + date.Year + " " + time.ToString(@"hh\:mm\:ss") + "\n";
                     SmpPacket packet = new SmpPacket("PutMessage", timeStamp, priority, MessageContentTextBox.Text);
 
                     try
                     {
+                        packet.Message = Encryption.EncryptMessage(packet.Message, "Public.key");
                         string response = Client.SendPutMessage(ServerIPAddressTextBox.Text, Int32.Parse(ApplicationPortNumberTextBox.Text), packet);
                         ServerResponseTextBox.Text = response;
                         ProducerStatusBar.Text = "Message sent.";

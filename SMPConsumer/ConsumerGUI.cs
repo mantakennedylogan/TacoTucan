@@ -1,4 +1,5 @@
-﻿using Sender;
+﻿using CryptographyUtilities;
+using Sender;
 using SMP_Library;
 using smpPacketUtil;
 using System;
@@ -53,7 +54,10 @@ namespace SMPConsumer
                     {
                         string response = Client.SendGetRequest(ServerIPAddressTextBox.Text, Int32.Parse(ApplicationPortNumberTextBox.Text), priority);
                         SmpPacket packet = SmpPacketUtil.StringToPacket(response);
-                        DisplaySmpPacket(SmpPacketUtil.StringToPacket(response));
+                        
+                        packet.Message = Encryption.DecryptMessage(packet.Message, "Private.key");
+                        
+                        DisplaySmpPacket(packet);
                     }
                     catch (Exception)
                     {

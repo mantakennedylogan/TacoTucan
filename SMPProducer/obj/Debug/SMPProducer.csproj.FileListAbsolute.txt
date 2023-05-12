@@ -47,20 +47,6 @@ E:\school\WWU\ciss 346\taco tucan next\tacotucan-main\SMPProducer\obj\Debug\SMPP
 C:\Users\atsoc\Desktop\Spring\TacoTucan\SMPProducer\bin\Debug\Library.dll
 C:\Users\atsoc\Desktop\Spring\TacoTucan\SMPProducer\bin\Debug\Library.pdb
 C:\Users\atsoc\Desktop\Spring\TacoTucan\SMPProducer\obj\Debug\SMPProducer.csproj.CopyComplete
-C:\csSchoolWork\ciss 346\TacoTucan\SMPProducer\obj\Debug\SMPProducer.csproj.AssemblyReference.cache
-C:\csSchoolWork\ciss 346\TacoTucan\SMPProducer\obj\Debug\SMPProducer.csproj.SuggestedBindingRedirects.cache
-C:\csSchoolWork\ciss 346\TacoTucan\SMPProducer\obj\Debug\SMPProducer.Producer.resources
-C:\csSchoolWork\ciss 346\TacoTucan\SMPProducer\obj\Debug\SMPProducer.Properties.Resources.resources
-C:\csSchoolWork\ciss 346\TacoTucan\SMPProducer\obj\Debug\SMPProducer.csproj.GenerateResource.cache
-C:\csSchoolWork\ciss 346\TacoTucan\SMPProducer\obj\Debug\SMPProducer.csproj.CoreCompileInputs.cache
-C:\csSchoolWork\ciss 346\TacoTucan\SMPProducer\obj\Debug\SMPProducer.exe
-C:\csSchoolWork\ciss 346\TacoTucan\SMPProducer\obj\Debug\SMPProducer.pdb
-C:\csSchoolWork\ciss 346\TacoTucan\SMPProducer\bin\Debug\SMPProducer.exe.config
-C:\csSchoolWork\ciss 346\TacoTucan\SMPProducer\bin\Debug\SMPProducer.exe
-C:\csSchoolWork\ciss 346\TacoTucan\SMPProducer\bin\Debug\SMPProducer.pdb
-C:\csSchoolWork\ciss 346\TacoTucan\SMPProducer\bin\Debug\Library.dll
-C:\csSchoolWork\ciss 346\TacoTucan\SMPProducer\bin\Debug\Library.pdb
-C:\csSchoolWork\ciss 346\TacoTucan\SMPProducer\obj\Debug\SMPProducer.csproj.CopyComplete
 C:\Users\atsoc\Desktop\Spring\TacoTucan\TacoTucan\SMPProducer\obj\Debug\SMPProducer.csproj.AssemblyReference.cache
 C:\Users\atsoc\Desktop\Spring\TacoTucan\TacoTucan\SMPProducer\obj\Debug\SMPProducer.csproj.SuggestedBindingRedirects.cache
 C:\Users\atsoc\Desktop\Spring\TacoTucan\TacoTucan\SMPProducer\obj\Debug\SMPProducer.Producer.resources
